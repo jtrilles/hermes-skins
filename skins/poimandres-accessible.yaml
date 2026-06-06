@@ -1,0 +1,63 @@
+name: poimandres-accessible
+description: Poimandres Accessible — high-contrast navy-mint, maximum readability.
+colors:
+  banner_border: "#7DF5D9"
+  banner_title: "#FFFFFF"
+  banner_accent: "#00FFFF"
+  banner_dim: "#7A8BA8"
+  banner_text: "#E8EDF5"
+  ui_accent: "#7DF5D9"
+  ui_label: "#00FFFF"
+  ui_ok: "#7DF5D9"
+  ui_error: "#FF6B6B"
+  ui_warn: "#FFE08A"
+  prompt: "#E8EDF5"
+  input_rule: "#7DF5D9"
+  response_border: "#7DF5D9"
+  status_bar_bg: "#121520"
+  status_bar_text: "#E8EDF5"
+  status_bar_strong: "#7DF5D9"
+  status_bar_dim: "#7A8BA8"
+  status_bar_good: "#7DF5D9"
+  status_bar_warn: "#FFE08A"
+  status_bar_bad: "#FF6B6B"
+  status_bar_critical: "#FF6B6B"
+  session_label: "#00FFFF"
+  session_border: "#7A8BA8"
+  selection_bg: "#7DF5D950"
+  completion_menu_bg: "#121520"
+  completion_menu_current_bg: "#2A3045"
+  completion_menu_meta_bg: "#1A2035"
+  completion_menu_meta_current_bg: "#2A3045"
+  voice_status_bg: "#121520"
+spinner:
+  waiting_faces:
+    - "▲"
+    - "◆"
+    - "●"
+    - "▸"
+    - "▹"
+    - "►"
+  thinking_faces:
+    - "▲"
+    - "◆"
+    - "●"
+    - "▸"
+  thinking_verbs:
+    - amplifying signal
+    - boosting contrast
+    - sharpening edges
+    - clearing the noise
+    - rendering clarity
+    - focusing the beam
+  wings:
+    - ["▲", "▲"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "▲ Poimandres++"
+  welcome: "Poimandres Accessible. Maximum clarity."
+  goodbye: "Signal clear. ▲"
+  response_label: " ▲ Hermes "
+  prompt_symbol: "▲"
+  help_header: "(▲) Poimandres++ Commands"
+tool_prefix: "┊"

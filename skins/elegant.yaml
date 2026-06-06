@@ -1,0 +1,69 @@
+name: elegant
+description: Elegant — graceful refined pastels, delicate typography, soft sophistication.
+colors:
+  banner_border: "#B8A9C9"
+  banner_title: "#F5EFF8"
+  banner_accent: "#E8D5F5"
+  banner_dim: "#8B7D9B"
+  banner_text: "#DCD0E8"
+  ui_accent: "#B8A9C9"
+  ui_label: "#A8D8EA"
+  ui_ok: "#A8D8A8"
+  ui_error: "#E8A0A0"
+  ui_warn: "#E8D0A0"
+  prompt: "#DCD0E8"
+  input_rule: "#B8A9C9"
+  response_border: "#B8A9C9"
+  status_bar_bg: "#1A1820"
+  status_bar_text: "#DCD0E8"
+  status_bar_strong: "#F5EFF8"
+  status_bar_dim: "#8B7D9B"
+  status_bar_good: "#A8D8A8"
+  status_bar_warn: "#E8D0A0"
+  status_bar_bad: "#E8A0A0"
+  status_bar_critical: "#E8A0A0"
+  session_label: "#A8D8EA"
+  session_border: "#8B7D9B"
+  selection_bg: "#B8A9C930"
+  completion_menu_bg: "#1A1820"
+  completion_menu_current_bg: "#2C2838"
+  completion_menu_meta_bg: "#221E2C"
+  completion_menu_meta_current_bg: "#2C2838"
+  voice_status_bg: "#1A1820"
+spinner:
+  waiting_faces:
+    - "(✿)"
+    - "(♢)"
+    - "(♤)"
+    - "(♡)"
+    - "(♧)"
+    - "(✧)"
+    - "(❀)"
+    - "(🌸)"
+  thinking_faces:
+    - "(✿)"
+    - "(♢)"
+    - "(♡)"
+    - "(✧)"
+    - "(❀)"
+    - "(🌸)"
+  thinking_verbs:
+    - arranging the bouquet
+    - smoothing the silk
+    - polishing the crystal
+    - tending the garden
+    - folding the linen
+    - setting the table
+    - pouring the tea
+  wings:
+    - ["✿", "✿"]
+    - ["♢", "♢"]
+    - ["❀", "❀"]
+branding:
+  agent_name: "✿ Elegant"
+  welcome: "Elegant. Grace in every detail."
+  goodbye: "Curtain drawn."
+  response_label: " ✿ Elegant "
+  prompt_symbol: "✿"
+  help_header: "(✿) Elegant Commands"
+tool_prefix: "┊"

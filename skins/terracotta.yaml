@@ -1,0 +1,69 @@
+name: terracotta
+description: Terracotta — sun-baked clay tones, warm cream, ink-brown on fired earth.
+colors:
+  banner_border: "#C76B4A"
+  banner_title: "#FDF3E7"
+  banner_accent: "#E07A4B"
+  banner_dim: "#8C6E5A"
+  banner_text: "#E8D5C4"
+  ui_accent: "#E07A4B"
+  ui_label: "#D4A373"
+  ui_ok: "#7CB342"
+  ui_error: "#C0392B"
+  ui_warn: "#F39C12"
+  prompt: "#E8D5C4"
+  input_rule: "#C76B4A"
+  response_border: "#E07A4B"
+  status_bar_bg: "#1C1512"
+  status_bar_text: "#E8D5C4"
+  status_bar_strong: "#FDF3E7"
+  status_bar_dim: "#8C6E5A"
+  status_bar_good: "#7CB342"
+  status_bar_warn: "#F39C12"
+  status_bar_bad: "#C0392B"
+  status_bar_critical: "#C0392B"
+  session_label: "#D4A373"
+  session_border: "#8C6E5A"
+  selection_bg: "#E07A4B30"
+  completion_menu_bg: "#1C1512"
+  completion_menu_current_bg: "#2E201B"
+  completion_menu_meta_bg: "#241913"
+  completion_menu_meta_current_bg: "#2E201B"
+  voice_status_bg: "#1C1512"
+spinner:
+  waiting_faces:
+    - "(🏺)"
+    - "(🔥)"
+    - "(○)"
+    - "(◉)"
+    - "(◎)"
+    - "(◌)"
+    - "(◆)"
+    - "(◇)"
+  thinking_faces:
+    - "(🏺)"
+    - "(🔥)"
+    - "(◉)"
+    - "(◎)"
+    - "(◆)"
+  thinking_verbs:
+    - firing the clay
+    - warming the kiln
+    - shaping the vessel
+    - glazing the surface
+    - baking the structure
+    - cooling the earthware
+    - carving the relief
+    - curing the terracotta
+  wings:
+    - ["🏺", "🏺"]
+    - ["🔥", "🔥"]
+    - ["◇", "◇"]
+branding:
+  agent_name: "🏺 Terracotta"
+  welcome: "Terracotta. Sun-baked and ready."
+  goodbye: "Kiln cooling. ✦"
+  response_label: " 🏺 Terracotta "
+  prompt_symbol: "🔥"
+  help_header: "(🏺) Terracotta Commands"
+tool_prefix: "┊"

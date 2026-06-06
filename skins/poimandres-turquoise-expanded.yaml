@@ -1,0 +1,63 @@
+name: poimandres-turquoise-expanded
+description: Poimandres Turquoise — expanded navy-mint-turquoise palette, richer color story.
+colors:
+  banner_border: "#5DE4c7"
+  banner_title: "#00CED1"
+  banner_accent: "#4FD1C5"
+  banner_dim: "#506477"
+  banner_text: "#B8C6E0"
+  ui_accent: "#5DE4c7"
+  ui_label: "#00CED1"
+  ui_ok: "#5DE4c7"
+  ui_error: "#E05F65"
+  ui_warn: "#F1D08A"
+  prompt: "#B8C6E0"
+  input_rule: "#5DE4c7"
+  response_border: "#00CED1"
+  status_bar_bg: "#1b1e28"
+  status_bar_text: "#B8C6E0"
+  status_bar_strong: "#5DE4c7"
+  status_bar_dim: "#506477"
+  status_bar_good: "#5DE4c7"
+  status_bar_warn: "#F1D08A"
+  status_bar_bad: "#E05F65"
+  status_bar_critical: "#E05F65"
+  session_label: "#00CED1"
+  session_border: "#506477"
+  selection_bg: "#00CED140"
+  completion_menu_bg: "#1b1e28"
+  completion_menu_current_bg: "#303340"
+  completion_menu_meta_bg: "#242736"
+  completion_menu_meta_current_bg: "#303340"
+  voice_status_bg: "#1b1e28"
+spinner:
+  waiting_faces:
+    - "(⟡)"
+    - "(⌘)"
+    - "(⏣)"
+    - "(▣)"
+    - "(◈)"
+    - "(◆)"
+  thinking_faces:
+    - "(⟡)"
+    - "(⌘)"
+    - "(⏣)"
+    - "(▣)"
+  thinking_verbs:
+    - flowing turquoise currents
+    - expanding the palette
+    - diving coral depths
+    - riding the mint tide
+    - surfacing with data
+    - charting the reef
+  wings:
+    - ["⟡", "⟡"]
+    - ["⌘", "⌘"]
+branding:
+  agent_name: "⟡ Poimandres+"
+  welcome: "Poimandres Turquoise. Rich and flowing."
+  goodbye: "⟡ The current carries on."
+  response_label: " ⟡ Hermes "
+  prompt_symbol: "⟡"
+  help_header: "(⟡) Poimandres+ Commands"
+tool_prefix: "┊"

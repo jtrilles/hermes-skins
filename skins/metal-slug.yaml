@@ -1,0 +1,69 @@
+name: metal-slug
+description: Metal Slug — 16-bit arcade palette, retro power.
+colors:
+  banner_border: "#4287F5"
+  banner_title: "#F5D547"
+  banner_accent: "#F54747"
+  banner_dim: "#1A1A1A"
+  banner_text: "#F5F5F5"
+  ui_accent: "#4287F5"
+  ui_label: "#42A5F5"
+  ui_ok: "#69D03F"
+  ui_error: "#F54747"
+  ui_warn: "#F5D547"
+  prompt: "#F5D547"
+  input_rule: "#4287F5"
+  response_border: "#F54747"
+  status_bar_bg: "#0D1B2A"
+  status_bar_text: "#E7F4EA"
+  status_bar_strong: "#F5D547"
+  status_bar_dim: "#8C9EAD"
+  status_bar_good: "#69D03F"
+  status_bar_warn: "#F5D547"
+  status_bar_bad: "#F54747"
+  status_bar_critical: "#F54747"
+  session_label: "#F5D547"
+  session_border: "#8C9EAD"
+  selection_bg: "#1E3A8A"
+  completion_menu_bg: "#0B1217"
+  completion_menu_current_bg: "#1B262D"
+  completion_menu_meta_bg: "#0B1217"
+  completion_menu_meta_current_bg: "#1B262D"
+  voice_status_bg: "#0B1217"
+spinner:
+  waiting_faces:
+    - "(▶)"
+    - "(●)"
+    - "(★)"
+    - "(◉)"
+    - "(◆)"
+    - "(■)"
+    - "(▲)"
+    - "(✦)"
+  thinking_faces:
+    - "(▶)"
+    - "(★)"
+    - "(◉)"
+    - "(◆)"
+    - "(▲)"
+    - "(✦)"
+  thinking_verbs:
+    - inserting coin
+    - deploying sprites
+    - firing main cannon
+    - loading 16-bit tile
+    - charging shot
+    - rescue op in progress
+    - rendering scanlines
+  wings:
+    - ["▶", "▶"]
+    - ["★", "★"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "★ METAL"
+  welcome: "Press ▶ to enter. Survive the grid."
+  goodbye: "Mission complete. ★"
+  response_label: " ★ METAL "
+  prompt_symbol: "▶"
+  help_header: "(▶) Metal Slug Commands"
+tool_prefix: "│"

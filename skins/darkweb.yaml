@@ -1,0 +1,69 @@
+name: darkweb
+description: Darkweb — deep red on black, .onion terminal, subsurface vigilance.
+colors:
+  banner_border: "#8B0000"
+  banner_title: "#FF4444"
+  banner_accent: "#FF6B6B"
+  banner_dim: "#4A0000"
+  banner_text: "#CC6666"
+  ui_accent: "#8B0000"
+  ui_label: "#FF6B6B"
+  ui_ok: "#4CAF50"
+  ui_error: "#FF0000"
+  ui_warn: "#FFA500"
+  prompt: "#CC6666"
+  input_rule: "#8B0000"
+  response_border: "#FF4444"
+  status_bar_bg: "#050000"
+  status_bar_text: "#CC6666"
+  status_bar_strong: "#FF4444"
+  status_bar_dim: "#4A0000"
+  status_bar_good: "#4CAF50"
+  status_bar_warn: "#FFA500"
+  status_bar_bad: "#FF0000"
+  status_bar_critical: "#FF0000"
+  session_label: "#FF6B6B"
+  session_border: "#3A0000"
+  selection_bg: "#8B000025"
+  completion_menu_bg: "#050000"
+  completion_menu_current_bg: "#120000"
+  completion_menu_meta_bg: "#0A0000"
+  completion_menu_meta_current_bg: "#120000"
+  voice_status_bg: "#050000"
+spinner:
+  waiting_faces:
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◑)"
+    - "(◆)"
+    - "(◇)"
+    - "(●)"
+    - "(○)"
+  thinking_faces:
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◑)"
+    - "(◆)"
+    - "(●)"
+  thinking_verbs:
+    - routing through Tor
+    - bouncing the signal
+    - encrypting the tunnel
+    - masking the origin
+    - sweeping the logs
+    - scrambling the trail
+    - burying the evidence
+  wings:
+    - ["◉", "◉"]
+    - ["◎", "◎"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "◉ DARK"
+  welcome: "Darkweb. You are anonymous here."
+  goodbye: "Connection severed. Tracks wiped."
+  response_label: " ◉ DARK "
+  prompt_symbol: "◉"
+  help_header: "(◉) Darkweb Commands"
+tool_prefix: "┊"

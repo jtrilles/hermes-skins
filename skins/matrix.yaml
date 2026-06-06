@@ -1,0 +1,69 @@
+name: matrix
+description: Matrix — green phosphor on black, code rain aesthetic.
+colors:
+  banner_border: "#00FF41"
+  banner_title: "#00FF41"
+  banner_accent: "#008F11"
+  banner_dim: "#005A00"
+  banner_text: "#00CC33"
+  ui_accent: "#00FF41"
+  ui_label: "#00CC33"
+  ui_ok: "#00FF41"
+  ui_error: "#FF0033"
+  ui_warn: "#FFFF00"
+  prompt: "#00CC33"
+  input_rule: "#00FF41"
+  response_border: "#00FF41"
+  status_bar_bg: "#000A00"
+  status_bar_text: "#00CC33"
+  status_bar_strong: "#00FF41"
+  status_bar_dim: "#005A00"
+  status_bar_good: "#00FF41"
+  status_bar_warn: "#FFFF00"
+  status_bar_bad: "#FF0033"
+  status_bar_critical: "#FF0033"
+  session_label: "#008F11"
+  session_border: "#005A00"
+  selection_bg: "#00FF4115"
+  completion_menu_bg: "#000A00"
+  completion_menu_current_bg: "#001A00"
+  completion_menu_meta_bg: "#001000"
+  completion_menu_meta_current_bg: "#001A00"
+  voice_status_bg: "#000A00"
+spinner:
+  waiting_faces:
+    - "(0)"
+    - "(1)"
+    - "(α)"
+    - "(β)"
+    - "(γ)"
+    - "(δ)"
+    - "(ε)"
+    - "(λ)"
+  thinking_faces:
+    - "(0)"
+    - "(1)"
+    - "(α)"
+    - "(β)"
+    - "(γ)"
+    - "(λ)"
+  thinking_verbs:
+    - following the white rabbit
+    - decoding the matrix
+    - simulating the construct
+    - freeing the mind
+    - bending the spoon
+    - navigating the desert of the real
+    - transcending the simulacra
+  wings:
+    - ["0", "0"]
+    - ["1", "1"]
+    - ["α", "α"]
+branding:
+  agent_name: "0 MATRIX"
+  welcome: "You are in the Matrix. Follow the white rabbit."
+  goodbye: "There is no spoon."
+  response_label: " 0 MATRIX "
+  prompt_symbol: "λ"
+  help_header: "(λ) Matrix Commands"
+tool_prefix: "┊"

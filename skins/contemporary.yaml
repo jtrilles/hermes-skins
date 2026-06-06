@@ -1,0 +1,66 @@
+name: contemporary
+description: Contemporary — current-era dark mode, bento grids, high-performance minimalism.
+colors:
+  banner_border: "#5EEAD4"
+  banner_title: "#F0FDFA"
+  banner_accent: "#2DD4BF"
+  banner_dim: "#5C8374"
+  banner_text: "#CCFBF1"
+  ui_accent: "#5EEAD4"
+  ui_label: "#67E8F9"
+  ui_ok: "#34D399"
+  ui_error: "#FB7185"
+  ui_warn: "#FBBF24"
+  prompt: "#CCFBF1"
+  input_rule: "#5EEAD4"
+  response_border: "#2DD4BF"
+  status_bar_bg: "#0F172A"
+  status_bar_text: "#CCFBF1"
+  status_bar_strong: "#F0FDFA"
+  status_bar_dim: "#5C8374"
+  status_bar_good: "#34D399"
+  status_bar_warn: "#FBBF24"
+  status_bar_bad: "#FB7185"
+  status_bar_critical: "#FB7185"
+  session_label: "#67E8F9"
+  session_border: "#5C8374"
+  selection_bg: "#5EEAD420"
+  completion_menu_bg: "#0F172A"
+  completion_menu_current_bg: "#1E293B"
+  completion_menu_meta_bg: "#141E2E"
+  completion_menu_meta_current_bg: "#1E293B"
+  voice_status_bg: "#0F172A"
+spinner:
+  waiting_faces:
+    - "(◈)"
+    - "(◇)"
+    - "(◆)"
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◓)"
+    - "(◑)"
+  thinking_faces:
+    - "(◇)"
+    - "(◆)"
+    - "(◉)"
+    - "(◎)"
+  thinking_verbs:
+    - rendering the grid
+    - loading the bento
+    - composing the layout
+    - optimizing the viewport
+    - stacking the cards
+    - refreshing the feed
+  wings:
+    - ["◈", "◈"]
+    - ["◇", "◇"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "◈ Contemporary"
+  welcome: "Contemporary. Modern grid, zero latency."
+  goodbye: "Grid collapsed."
+  response_label: " ◈ Contemporary "
+  prompt_symbol: "◈"
+  help_header: "(◈) Contemporary Commands"
+tool_prefix: "┊"

@@ -1,0 +1,63 @@
+name: lavi
+description: Lavi — lavender-pink gradient, soft elegant pastels.
+colors:
+  banner_border: "#EAB9F9"
+  banner_title: "#EAB9F9"
+  banner_accent: "#F8C8DC"
+  banner_dim: "#8B7FBA"
+  banner_text: "#E8E0F0"
+  ui_accent: "#EAB9F9"
+  ui_label: "#F8C8DC"
+  ui_ok: "#A8E6CF"
+  ui_error: "#FF8A9B"
+  ui_warn: "#FFD6A5"
+  prompt: "#E8E0F0"
+  input_rule: "#EAB9F9"
+  response_border: "#EAB9F9"
+  status_bar_bg: "#25213B"
+  status_bar_text: "#E8E0F0"
+  status_bar_strong: "#EAB9F9"
+  status_bar_dim: "#8B7FBA"
+  status_bar_good: "#A8E6CF"
+  status_bar_warn: "#FFD6A5"
+  status_bar_bad: "#FF8A9B"
+  status_bar_critical: "#FF8A9B"
+  session_label: "#F8C8DC"
+  session_border: "#8B7FBA"
+  selection_bg: "#EAB9F940"
+  completion_menu_bg: "#25213B"
+  completion_menu_current_bg: "#3B355F"
+  completion_menu_meta_bg: "#2D2748"
+  completion_menu_meta_current_bg: "#3B355F"
+  voice_status_bg: "#25213B"
+spinner:
+  waiting_faces:
+    - "(✿)"
+    - "(♡)"
+    - "(⋆)"
+    - "(✧)"
+    - "(⁕)"
+    - "(※)"
+  thinking_faces:
+    - "(✿)"
+    - "(♡)"
+    - "(⋆)"
+    - "(✧)"
+  thinking_verbs:
+    - blooming the pipeline
+    - weaving lavender
+    - softening the edges
+    - harmonizing hues
+    - petal-stepping through data
+    - dusting with pink
+  wings:
+    - ["✿", "✿"]
+    - ["♡", "♡"]
+branding:
+  agent_name: "✿ Lavi"
+  welcome: "✿ Lavi active. Soft power."
+  goodbye: "Petals falling. ✿"
+  response_label: " ✿ Lavi "
+  prompt_symbol: "✿"
+  help_header: "(✿) Lavi Commands"
+tool_prefix: "┊"

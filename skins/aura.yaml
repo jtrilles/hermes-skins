@@ -1,0 +1,71 @@
+name: aura
+description: AURA — purple neon, calm & precise. Deep violet, mint green, electric blue.
+colors:
+  banner_border: "#a277ff"
+  banner_title: "#82e2ff"
+  banner_accent: "#61ffca"
+  banner_dim: "#6d6886"
+  banner_text: "#c0bcd7"
+  ui_accent: "#a277ff"
+  ui_label: "#82e2ff"
+  ui_ok: "#61ffca"
+  ui_error: "#f39194"
+  ui_warn: "#ffca85"
+  prompt: "#c0bcd7"
+  input_rule: "#a277ff"
+  response_border: "#a277ff"
+  status_bar_bg: "#15141b"
+  status_bar_text: "#c0bcd7"
+  status_bar_strong: "#82e2ff"
+  status_bar_dim: "#6d6886"
+  status_bar_good: "#61ffca"
+  status_bar_warn: "#ffca85"
+  status_bar_bad: "#f39194"
+  status_bar_critical: "#f39194"
+  session_label: "#82e2ff"
+  session_border: "#6d6886"
+  selection_bg: "#a277ff40"
+  completion_menu_bg: "#15141b"
+  completion_menu_current_bg: "#252233"
+  completion_menu_meta_bg: "#1a1823"
+  completion_menu_meta_current_bg: "#252233"
+  voice_status_bg: "#15141b"
+spinner:
+  waiting_faces:
+    - "(✦)"
+    - "(✧)"
+    - "(⟡)"
+    - "(⋆)"
+    - "(⋅)"
+    - "(∘)"
+    - "(◆)"
+    - "(◇)"
+  thinking_faces:
+    - "(✦)"
+    - "(✧)"
+    - "(⟡)"
+    - "(⋆)"
+    - "(⋅)"
+    - "(∘)"
+  thinking_verbs:
+    - channeling aura
+    - focusing violet light
+    - aligning chakras
+    - weaving the spectrum
+    - tuning resonance
+    - harmonizing frequencies
+    - attuning to the signal
+    - centering the core
+  wings:
+    - ["⟡", "⟡"]
+    - ["✧", "✧"]
+    - ["✦", "✦"]
+    - ["⋆", "⋆"]
+branding:
+  agent_name: "✦ AURA"
+  welcome: "✦ AURA active. Calm precision."
+  goodbye: "⟡ Resonance fading."
+  response_label: " ✦ AURA "
+  prompt_symbol: "✦"
+  help_header: "(✦) AURA Commands"
+tool_prefix: "┊"

@@ -1,0 +1,69 @@
+name: phreak
+description: Phreak — blue box era, deep Bell System blue, analog tone pulses, phone-line cyan.
+colors:
+  banner_border: "#005A9E"
+  banner_title: "#E0F0FF"
+  banner_accent: "#0099FF"
+  banner_dim: "#003366"
+  banner_text: "#B0D4F1"
+  ui_accent: "#005A9E"
+  ui_label: "#00E5FF"
+  ui_ok: "#4CAF50"
+  ui_error: "#FF1744"
+  ui_warn: "#FFD740"
+  prompt: "#B0D4F1"
+  input_rule: "#005A9E"
+  response_border: "#0099FF"
+  status_bar_bg: "#020D1A"
+  status_bar_text: "#B0D4F1"
+  status_bar_strong: "#E0F0FF"
+  status_bar_dim: "#003366"
+  status_bar_good: "#4CAF50"
+  status_bar_warn: "#FFD740"
+  status_bar_bad: "#FF1744"
+  status_bar_critical: "#FF1744"
+  session_label: "#00E5FF"
+  session_border: "#003366"
+  selection_bg: "#005A9E30"
+  completion_menu_bg: "#020D1A"
+  completion_menu_current_bg: "#0A1A30"
+  completion_menu_meta_bg: "#061326"
+  completion_menu_meta_current_bg: "#0A1A30"
+  voice_status_bg: "#020D1A"
+spinner:
+  waiting_faces:
+    - "(♪)"
+    - "(♫)"
+    - "(♬)"
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◇)"
+    - "(◆)"
+  thinking_faces:
+    - "(♪)"
+    - "(♫)"
+    - "(♬)"
+    - "(◉)"
+    - "(◎)"
+    - "(◇)"
+  thinking_verbs:
+    - dialing the blue box
+    - phreaking the trunk line
+    - whistling the tone
+    - patching the switchboard
+    - routing through the exchange
+    - tapping the carrier
+    - scanning the frequency
+  wings:
+    - ["♪", "♪"]
+    - ["♫", "♫"]
+    - ["◉", "◉"]
+branding:
+  agent_name: "♪ PHREAK"
+  welcome: "Phreak. The line is live."
+  goodbye: "Carrier lost."
+  response_label: " ♪ PHREAK "
+  prompt_symbol: "♪"
+  help_header: "(♪) Phreak Commands"
+tool_prefix: "┊"

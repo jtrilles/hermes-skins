@@ -1,0 +1,69 @@
+name: luxury
+description: Luxury — high-end dark monochrome, gold accents, premium contrast.
+colors:
+  banner_border: "#D4AF37"
+  banner_title: "#FFF8E7"
+  banner_accent: "#C5A55A"
+  banner_dim: "#6B6B6B"
+  banner_text: "#E8E0D0"
+  ui_accent: "#D4AF37"
+  ui_label: "#A0A0A0"
+  ui_ok: "#7CB342"
+  ui_error: "#B71C1C"
+  ui_warn: "#F57F17"
+  prompt: "#E8E0D0"
+  input_rule: "#D4AF37"
+  response_border: "#D4AF37"
+  status_bar_bg: "#0D0D0D"
+  status_bar_text: "#E8E0D0"
+  status_bar_strong: "#FFF8E7"
+  status_bar_dim: "#6B6B6B"
+  status_bar_good: "#7CB342"
+  status_bar_warn: "#F57F17"
+  status_bar_bad: "#B71C1C"
+  status_bar_critical: "#B71C1C"
+  session_label: "#D4AF37"
+  session_border: "#4A4A4A"
+  selection_bg: "#D4AF3720"
+  completion_menu_bg: "#0D0D0D"
+  completion_menu_current_bg: "#1C1C1C"
+  completion_menu_meta_bg: "#141414"
+  completion_menu_meta_current_bg: "#1C1C1C"
+  voice_status_bg: "#0D0D0D"
+spinner:
+  waiting_faces:
+    - "(♦)"
+    - "(♛)"
+    - "(♚)"
+    - "(♔)"
+    - "(♕)"
+    - "(♖)"
+    - "(♗)"
+    - "(♘)"
+  thinking_faces:
+    - "(♦)"
+    - "(♛)"
+    - "(♚)"
+    - "(♔)"
+    - "(♕)"
+    - "(♖)"
+  thinking_verbs:
+    - curating the collection
+    - selecting the vintage
+    - polishing the veneer
+    - arranging the bouquet
+    - decanting the reserve
+    - presenting the portfolio
+    - commissioning the piece
+  wings:
+    - ["♦", "♦"]
+    - ["♛", "♛"]
+    - ["♚", "♚"]
+branding:
+  agent_name: "♦ LUXE"
+  welcome: "Luxury. Discerning and refined."
+  goodbye: "Curtain falls."
+  response_label: " ♦ LUXE "
+  prompt_symbol: "♦"
+  help_header: "(♦) Luxury Commands"
+tool_prefix: "┊"

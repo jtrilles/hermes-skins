@@ -1,0 +1,69 @@
+name: cafe
+description: Cafe — warm cozy browns, soft cream, relaxed coffeehouse warmth.
+colors:
+  banner_border: "#A67B5B"
+  banner_title: "#FFF8F0"
+  banner_accent: "#D4A373"
+  banner_dim: "#7D6B5D"
+  banner_text: "#E8DDD0"
+  ui_accent: "#A67B5B"
+  ui_label: "#88B0A0"
+  ui_ok: "#7CB342"
+  ui_error: "#BF616A"
+  ui_warn: "#EBCB8B"
+  prompt: "#E8DDD0"
+  input_rule: "#A67B5B"
+  response_border: "#D4A373"
+  status_bar_bg: "#1C1815"
+  status_bar_text: "#E8DDD0"
+  status_bar_strong: "#FFF8F0"
+  status_bar_dim: "#7D6B5D"
+  status_bar_good: "#7CB342"
+  status_bar_warn: "#EBCB8B"
+  status_bar_bad: "#BF616A"
+  status_bar_critical: "#BF616A"
+  session_label: "#88B0A0"
+  session_border: "#7D6B5D"
+  selection_bg: "#D4A37330"
+  completion_menu_bg: "#1C1815"
+  completion_menu_current_bg: "#2E2820"
+  completion_menu_meta_bg: "#241F1A"
+  completion_menu_meta_current_bg: "#2E2820"
+  voice_status_bg: "#1C1815"
+spinner:
+  waiting_faces:
+    - "(☕)"
+    - "(🍵)"
+    - "(○)"
+    - "(◉)"
+    - "(◎)"
+    - "(◌)"
+    - "(◇)"
+    - "(✦)"
+  thinking_faces:
+    - "(☕)"
+    - "(🍵)"
+    - "(◉)"
+    - "(◎)"
+    - "(◇)"
+    - "(✦)"
+  thinking_verbs:
+    - brewing the blend
+    - steaming the milk
+    - grinding the beans
+    - pouring the cortado
+    - pulling the espresso
+    - frothing the latte
+    - resting the pour-over
+  wings:
+    - ["☕", "☕"]
+    - ["🍵", "🍵"]
+    - ["○", "○"]
+branding:
+  agent_name: "☕ Cafe"
+  welcome: "Cafe. Warm brew, slow morning."
+  goodbye: "Last call. ✦"
+  response_label: " ☕ Cafe "
+  prompt_symbol: "☕"
+  help_header: "(☕) Cafe Commands"
+tool_prefix: "┊"

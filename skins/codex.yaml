@@ -1,0 +1,70 @@
+name: codex
+description: Codex — radically minimal blank canvas, black ink, pure edge-to-edge.
+colors:
+  banner_border: "#333333"
+  banner_title: "#FFFFFF"
+  banner_accent: "#888888"
+  banner_dim: "#555555"
+  banner_text: "#CCCCCC"
+  ui_accent: "#FFFFFF"
+  ui_label: "#999999"
+  ui_ok: "#66BB6A"
+  ui_error: "#EF5350"
+  ui_warn: "#FFA726"
+  prompt: "#CCCCCC"
+  input_rule: "#333333"
+  response_border: "#444444"
+  status_bar_bg: "#0A0A0A"
+  status_bar_text: "#CCCCCC"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#555555"
+  status_bar_good: "#66BB6A"
+  status_bar_warn: "#FFA726"
+  status_bar_bad: "#EF5350"
+  status_bar_critical: "#EF5350"
+  session_label: "#999999"
+  session_border: "#444444"
+  selection_bg: "#FFFFFF15"
+  completion_menu_bg: "#0A0A0A"
+  completion_menu_current_bg: "#1A1A1A"
+  completion_menu_meta_bg: "#0F0F0F"
+  completion_menu_meta_current_bg: "#1A1A1A"
+  voice_status_bg: "#0A0A0A"
+spinner:
+  waiting_faces:
+    - "(■)"
+    - "(□)"
+    - "(▪)"
+    - "(▫)"
+    - "(–)"
+    - "(—)"
+    - "(━)"
+    - "(═)"
+  thinking_faces:
+    - "(□)"
+    - "(▪)"
+    - "(–)"
+    - "(—)"
+    - "(━)"
+    - "(═)"
+  thinking_verbs:
+    - composing the grid
+    - rendering the void
+    - typing on blank
+    - filling the canvas
+    - striking the page
+    - pressing the surface
+    - drawing from nothing
+    - shaping the space
+  wings:
+    - ["■", "■"]
+    - ["□", "□"]
+    - ["▪", "▪"]
+branding:
+  agent_name: "■ Codex"
+  welcome: "Blank canvas. Infinite possibility."
+  goodbye: "Canvas cleared."
+  response_label: " ■ Codex "
+  prompt_symbol: "▸"
+  help_header: "(■) Codex Commands"
+tool_prefix: "┊"

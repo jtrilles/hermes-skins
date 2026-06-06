@@ -1,0 +1,69 @@
+name: cypher
+description: Cypher — cypherpunk aesthetic, encryption green, darknet noir, PGP vibes.
+colors:
+  banner_border: "#00C853"
+  banner_title: "#E8F5E9"
+  banner_accent: "#00E676"
+  banner_dim: "#2E7D32"
+  banner_text: "#A5D6A7"
+  ui_accent: "#00C853"
+  ui_label: "#00BCD4"
+  ui_ok: "#76FF03"
+  ui_error: "#FF1744"
+  ui_warn: "#FFD740"
+  prompt: "#A5D6A7"
+  input_rule: "#00C853"
+  response_border: "#00E676"
+  status_bar_bg: "#0A1A0A"
+  status_bar_text: "#A5D6A7"
+  status_bar_strong: "#E8F5E9"
+  status_bar_dim: "#2E7D32"
+  status_bar_good: "#76FF03"
+  status_bar_warn: "#FFD740"
+  status_bar_bad: "#FF1744"
+  status_bar_critical: "#FF1744"
+  session_label: "#00BCD4"
+  session_border: "#1B3A1B"
+  selection_bg: "#00C85325"
+  completion_menu_bg: "#0A1A0A"
+  completion_menu_current_bg: "#122A12"
+  completion_menu_meta_bg: "#0E220E"
+  completion_menu_meta_current_bg: "#122A12"
+  voice_status_bg: "#0A1A0A"
+spinner:
+  waiting_faces:
+    - "(🔑)"
+    - "(🔒)"
+    - "(🔓)"
+    - "(◇)"
+    - "(◆)"
+    - "(◈)"
+    - "(◎)"
+    - "(◉)"
+  thinking_faces:
+    - "(🔑)"
+    - "(🔒)"
+    - "(🔓)"
+    - "(◇)"
+    - "(◆)"
+    - "(◈)"
+  thinking_verbs:
+    - generating the keypair
+    - signing the digest
+    - verifying the fingerprint
+    - encrypting the payload
+    - hashing the block
+    - sealing the envelope
+    - checking the signature
+  wings:
+    - ["🔑", "🔑"]
+    - ["🔒", "🔒"]
+    - ["◇", "◇"]
+branding:
+  agent_name: "🔑 CYPHER"
+  welcome: "Cypher. Keys are loaded."
+  goodbye: "Session encrypted. Wiped."
+  response_label: " 🔑 CYPHER "
+  prompt_symbol: "🔑"
+  help_header: "(🔑) Cypher Commands"
+tool_prefix: "┊"

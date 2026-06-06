@@ -1,0 +1,69 @@
+name: brutalism
+description: Brutalism — raw concrete, unadorned stark black-white, functional minimalism.
+colors:
+  banner_border: "#666666"
+  banner_title: "#FFFFFF"
+  banner_accent: "#FF4500"
+  banner_dim: "#555555"
+  banner_text: "#D0D0D0"
+  ui_accent: "#FF4500"
+  ui_label: "#888888"
+  ui_ok: "#4CAF50"
+  ui_error: "#D32F2F"
+  ui_warn: "#FF9800"
+  prompt: "#D0D0D0"
+  input_rule: "#666666"
+  response_border: "#FF4500"
+  status_bar_bg: "#0D0D0D"
+  status_bar_text: "#D0D0D0"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#555555"
+  status_bar_good: "#4CAF50"
+  status_bar_warn: "#FF9800"
+  status_bar_bad: "#D32F2F"
+  status_bar_critical: "#D32F2F"
+  session_label: "#FF4500"
+  session_border: "#444444"
+  selection_bg: "#FF450020"
+  completion_menu_bg: "#0D0D0D"
+  completion_menu_current_bg: "#1A1A1A"
+  completion_menu_meta_bg: "#121212"
+  completion_menu_meta_current_bg: "#1A1A1A"
+  voice_status_bg: "#0D0D0D"
+spinner:
+  waiting_faces:
+    - "(■)"
+    - "(□)"
+    - "(▣)"
+    - "(▤)"
+    - "(▥)"
+    - "(▦)"
+    - "(▧)"
+    - "(▨)"
+  thinking_faces:
+    - "(■)"
+    - "(□)"
+    - "(▣)"
+    - "(▤)"
+    - "(▥)"
+    - "(▦)"
+  thinking_verbs:
+    - pouring the concrete
+    - reinforcing the slab
+    - exposing the aggregate
+    - stripping the formwork
+    - curing the structure
+    - riveting the frame
+    - bolting the joint
+  wings:
+    - ["■", "■"]
+    - ["□", "□"]
+    - ["▣", "▣"]
+branding:
+  agent_name: "■ BRUTE"
+  welcome: "Brutalism. Raw concrete. No ornament."
+  goodbye: "Structure demolished."
+  response_label: " ■ BRUTE "
+  prompt_symbol: "■"
+  help_header: "(■) Brutalism Commands"
+tool_prefix: "┊"

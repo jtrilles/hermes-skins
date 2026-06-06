@@ -1,0 +1,69 @@
+name: modern
+description: Modern — editorial serif, minimal palette, polished typography.
+colors:
+  banner_border: "#6B7280"
+  banner_title: "#F3F4F6"
+  banner_accent: "#9CA3AF"
+  banner_dim: "#4B5563"
+  banner_text: "#D1D5DB"
+  ui_accent: "#9CA3AF"
+  ui_label: "#60A5FA"
+  ui_ok: "#6EE7B7"
+  ui_error: "#FCA5A5"
+  ui_warn: "#FCD34D"
+  prompt: "#D1D5DB"
+  input_rule: "#6B7280"
+  response_border: "#9CA3AF"
+  status_bar_bg: "#111827"
+  status_bar_text: "#D1D5DB"
+  status_bar_strong: "#F3F4F6"
+  status_bar_dim: "#4B5563"
+  status_bar_good: "#6EE7B7"
+  status_bar_warn: "#FCD34D"
+  status_bar_bad: "#FCA5A5"
+  status_bar_critical: "#FCA5A5"
+  session_label: "#60A5FA"
+  session_border: "#4B5563"
+  selection_bg: "#9CA3AF30"
+  completion_menu_bg: "#111827"
+  completion_menu_current_bg: "#1F2937"
+  completion_menu_meta_bg: "#162032"
+  completion_menu_meta_current_bg: "#1F2937"
+  voice_status_bg: "#111827"
+spinner:
+  waiting_faces:
+    - "(§)"
+    - "(¶)"
+    - "(†)"
+    - "(‡)"
+    - "(•)"
+    - "(∗)"
+    - "(·)"
+    - "(⁂)"
+  thinking_faces:
+    - "(†)"
+    - "(‡)"
+    - "(•)"
+    - "(∗)"
+    - "(·)"
+    - "(⁂)"
+  thinking_verbs:
+    - setting the type
+    - composing the spread
+    - aligning the baseline
+    - setting the leading
+    - adjusting the kerning
+    - choosing the weight
+    - arranging the folio
+  wings:
+    - ["§", "§"]
+    - ["¶", "¶"]
+    - ["†", "†"]
+branding:
+  agent_name: "§ Modern"
+  welcome: "Modern. Typography-driven clarity."
+  goodbye: "Spread closed."
+  response_label: " § Modern "
+  prompt_symbol: "§"
+  help_header: "(§) Modern Commands"
+tool_prefix: "┊"

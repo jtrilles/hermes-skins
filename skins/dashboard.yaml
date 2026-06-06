@@ -1,0 +1,69 @@
+name: dashboard
+description: Dashboard — dark cloud-platform, data viz colors, glass-like panels.
+colors:
+  banner_border: "#00BCD4"
+  banner_title: "#E0F7FA"
+  banner_accent: "#26C6DA"
+  banner_dim: "#546E7A"
+  banner_text: "#B2EBF2"
+  ui_accent: "#00BCD4"
+  ui_label: "#FF9800"
+  ui_ok: "#4CAF50"
+  ui_error: "#F44336"
+  ui_warn: "#FFC107"
+  prompt: "#B2EBF2"
+  input_rule: "#00BCD4"
+  response_border: "#26C6DA"
+  status_bar_bg: "#121A21"
+  status_bar_text: "#B2EBF2"
+  status_bar_strong: "#E0F7FA"
+  status_bar_dim: "#546E7A"
+  status_bar_good: "#4CAF50"
+  status_bar_warn: "#FFC107"
+  status_bar_bad: "#F44336"
+  status_bar_critical: "#F44336"
+  session_label: "#FF9800"
+  session_border: "#546E7A"
+  selection_bg: "#00BCD425"
+  completion_menu_bg: "#121A21"
+  completion_menu_current_bg: "#1E2D38"
+  completion_menu_meta_bg: "#16232B"
+  completion_menu_meta_current_bg: "#1E2D38"
+  voice_status_bg: "#121A21"
+spinner:
+  waiting_faces:
+    - "(◈)"
+    - "(◇)"
+    - "(◆)"
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◓)"
+    - "(◑)"
+  thinking_faces:
+    - "(◈)"
+    - "(◇)"
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◓)"
+  thinking_verbs:
+    - refreshing the dashboard
+    - updating the metrics
+    - querying the data lake
+    - rendering the charts
+    - streaming the telemetry
+    - aggregating the logs
+    - pinging the endpoints
+  wings:
+    - ["◈", "◈"]
+    - ["◇", "◇"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "◈ DASH"
+  welcome: "Dashboard. All systems nominal."
+  goodbye: "Dashboard closed."
+  response_label: " ◈ DASH "
+  prompt_symbol: "◈"
+  help_header: "(◈) Dashboard Commands"
+tool_prefix: "┊"

@@ -1,0 +1,64 @@
+name: sleek
+description: Sleek — modern minimalist, clean lines, intentional palette, refined.
+colors:
+  banner_border: "#4A5568"
+  banner_title: "#E2E8F0"
+  banner_accent: "#63B3ED"
+  banner_dim: "#718096"
+  banner_text: "#CBD5E0"
+  ui_accent: "#63B3ED"
+  ui_label: "#68D391"
+  ui_ok: "#68D391"
+  ui_error: "#FC8181"
+  ui_warn: "#F6AD55"
+  prompt: "#CBD5E0"
+  input_rule: "#4A5568"
+  response_border: "#63B3ED"
+  status_bar_bg: "#1A202C"
+  status_bar_text: "#CBD5E0"
+  status_bar_strong: "#E2E8F0"
+  status_bar_dim: "#718096"
+  status_bar_good: "#68D391"
+  status_bar_warn: "#F6AD55"
+  status_bar_bad: "#FC8181"
+  status_bar_critical: "#FC8181"
+  session_label: "#68D391"
+  session_border: "#4A5568"
+  selection_bg: "#63B3ED30"
+  completion_menu_bg: "#1A202C"
+  completion_menu_current_bg: "#2D3748"
+  completion_menu_meta_bg: "#222A38"
+  completion_menu_meta_current_bg: "#2D3748"
+  voice_status_bg: "#1A202C"
+spinner:
+  waiting_faces:
+    - "(--)"
+    - "(-●)"
+    - "(●-)"
+    - "(=●)"
+    - "(●=)"
+    - "(◆)"
+    - "(◇)"
+  thinking_faces:
+    - "(-●)"
+    - "(●-)"
+    - "(=●)"
+    - "(●=)"
+  thinking_verbs:
+    - cleaning the lines
+    - refining the edge
+    - balancing the grid
+    - polishing the surface
+    - aligning the spacing
+  wings:
+    - ["──", "──"]
+    - ["─●", "●─"]
+    - ["═●", "●═"]
+branding:
+  agent_name: "─ Sleek"
+  welcome: "Sleek. Clean lines, zero friction."
+  goodbye: "Design saved."
+  response_label: " ─ Sleek "
+  prompt_symbol: "─"
+  help_header: "(─) Sleek Commands"
+tool_prefix: "│"

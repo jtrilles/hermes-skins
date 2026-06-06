@@ -1,0 +1,69 @@
+name: cosmic
+description: Cosmic — deep space purple, nebula pink, star-bright cyan.
+colors:
+  banner_border: "#9B59B6"
+  banner_title: "#F0E6FF"
+  banner_accent: "#E8A0E0"
+  banner_dim: "#6C3C8C"
+  banner_text: "#D8C4E8"
+  ui_accent: "#9B59B6"
+  ui_label: "#64D8FF"
+  ui_ok: "#2ECC71"
+  ui_error: "#E74C3C"
+  ui_warn: "#F1C40F"
+  prompt: "#D8C4E8"
+  input_rule: "#9B59B6"
+  response_border: "#E8A0E0"
+  status_bar_bg: "#0E0A1A"
+  status_bar_text: "#D8C4E8"
+  status_bar_strong: "#F0E6FF"
+  status_bar_dim: "#6C3C8C"
+  status_bar_good: "#2ECC71"
+  status_bar_warn: "#F1C40F"
+  status_bar_bad: "#E74C3C"
+  status_bar_critical: "#E74C3C"
+  session_label: "#64D8FF"
+  session_border: "#6C3C8C"
+  selection_bg: "#9B59B630"
+  completion_menu_bg: "#0E0A1A"
+  completion_menu_current_bg: "#1E1430"
+  completion_menu_meta_bg: "#150E22"
+  completion_menu_meta_current_bg: "#1E1430"
+  voice_status_bg: "#0E0A1A"
+spinner:
+  waiting_faces:
+    - "(✦)"
+    - "(✧)"
+    - "(⋆)"
+    - "(○)"
+    - "(◉)"
+    - "(◎)"
+    - "(◈)"
+    - "(◇)"
+  thinking_faces:
+    - "(✦)"
+    - "(✧)"
+    - "(⋆)"
+    - "(◉)"
+    - "(◎)"
+    - "(◈)"
+  thinking_verbs:
+    - charting the nebula
+    - traversing the cosmos
+    - bending spacetime
+    - aligning the constellations
+    - warping through the void
+    - orbiting the singularity
+    - navigating the astral plane
+  wings:
+    - ["✦", "✦"]
+    - ["✧", "✧"]
+    - ["⋆", "⋆"]
+branding:
+  agent_name: "✦ COSMIC"
+  welcome: "Cosmic. Drifting through the nebula."
+  goodbye: "Stars fading."
+  response_label: " ✦ COSMIC "
+  prompt_symbol: "✦"
+  help_header: "(✦) Cosmic Commands"
+tool_prefix: "┊"

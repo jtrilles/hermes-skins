@@ -1,0 +1,66 @@
+name: premium
+description: Premium — Apple-inspired, precise spacing, refined polished minimalism.
+colors:
+  banner_border: "#8E8E93"
+  banner_title: "#F5F5F7"
+  banner_accent: "#007AFF"
+  banner_dim: "#636366"
+  banner_text: "#E5E5EA"
+  ui_accent: "#007AFF"
+  ui_label: "#34C759"
+  ui_ok: "#34C759"
+  ui_error: "#FF3B30"
+  ui_warn: "#FF9F0A"
+  prompt: "#E5E5EA"
+  input_rule: "#8E8E93"
+  response_border: "#007AFF"
+  status_bar_bg: "#1C1C1E"
+  status_bar_text: "#E5E5EA"
+  status_bar_strong: "#F5F5F7"
+  status_bar_dim: "#636366"
+  status_bar_good: "#34C759"
+  status_bar_warn: "#FF9F0A"
+  status_bar_bad: "#FF3B30"
+  status_bar_critical: "#FF3B30"
+  session_label: "#34C759"
+  session_border: "#636366"
+  selection_bg: "#007AFF30"
+  completion_menu_bg: "#1C1C1E"
+  completion_menu_current_bg: "#2C2C2E"
+  completion_menu_meta_bg: "#222224"
+  completion_menu_meta_current_bg: "#2C2C2E"
+  voice_status_bg: "#1C1C1E"
+spinner:
+  waiting_faces:
+    - "(●)"
+    - "(◉)"
+    - "(◎)"
+    - "(○)"
+    - "(◌)"
+    - "(◔)"
+    - "(◕)"
+    - "(◐)"
+  thinking_faces:
+    - "(●)"
+    - "(◉)"
+    - "(◎)"
+    - "(○)"
+  thinking_verbs:
+    - calibrating the grid
+    - refining the edge
+    - compositing the render
+    - tuning the animation
+    - polishing the transition
+    - aligning the stack
+  wings:
+    - ["●", "●"]
+    - ["◉", "◉"]
+    - ["◎", "◎"]
+branding:
+  agent_name: "● Premium"
+  welcome: "Premium. Precision in every pixel."
+  goodbye: "Composition complete."
+  response_label: " ● Premium "
+  prompt_symbol: "●"
+  help_header: "(●) Premium Commands"
+tool_prefix: "┊"

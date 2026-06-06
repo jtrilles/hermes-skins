@@ -1,0 +1,69 @@
+name: neobrutalism
+description: Neobrutalism — bold borders, vivid accents, high-contrast raw confidence.
+colors:
+  banner_border: "#FF6B35"
+  banner_title: "#FFFFFF"
+  banner_accent: "#FFD700"
+  banner_dim: "#8A8A8A"
+  banner_text: "#F0F0F0"
+  ui_accent: "#FF6B35"
+  ui_label: "#00E5FF"
+  ui_ok: "#00E676"
+  ui_error: "#FF1744"
+  ui_warn: "#FFEA00"
+  prompt: "#F0F0F0"
+  input_rule: "#FF6B35"
+  response_border: "#FF6B35"
+  status_bar_bg: "#1A1A1A"
+  status_bar_text: "#F0F0F0"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#8A8A8A"
+  status_bar_good: "#00E676"
+  status_bar_warn: "#FFEA00"
+  status_bar_bad: "#FF1744"
+  status_bar_critical: "#FF1744"
+  session_label: "#00E5FF"
+  session_border: "#555555"
+  selection_bg: "#FF6B3540"
+  completion_menu_bg: "#1A1A1A"
+  completion_menu_current_bg: "#2D2D2D"
+  completion_menu_meta_bg: "#222222"
+  completion_menu_meta_current_bg: "#2D2D2D"
+  voice_status_bg: "#1A1A1A"
+spinner:
+  waiting_faces:
+    - "(⬥)"
+    - "(⬢)"
+    - "(◆)"
+    - "(◈)"
+    - "(⬟)"
+    - "(▣)"
+    - "(◉)"
+    - "(⬠)"
+  thinking_faces:
+    - "(⬥)"
+    - "(⬢)"
+    - "(◆)"
+    - "(◈)"
+    - "(▣)"
+    - "(◉)"
+  thinking_verbs:
+    - breaking the grid
+    - slamming the frame
+    - firing the accent
+    - pressing the weight
+    - throwing the shape
+    - locking the border
+    - hitting the contrast
+  wings:
+    - ["⬥", "⬥"]
+    - ["⬢", "⬢"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "⬥ Neo"
+  welcome: "Neobrutalism. Raw and undeniable."
+  goodbye: "Frame broken."
+  response_label: " ⬥ Neo "
+  prompt_symbol: "⬥"
+  help_header: "(⬥) Neobrutalism Commands"
+tool_prefix: "┊"

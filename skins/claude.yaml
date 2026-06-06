@@ -1,0 +1,70 @@
+name: claude
+description: Claude — warm stone research journal, ivory parchment on near-black slate.
+colors:
+  banner_border: "#8B7355"
+  banner_title: "#E8D5B7"
+  banner_accent: "#C9A96E"
+  banner_dim: "#6B5B4F"
+  banner_text: "#D4C5A9"
+  ui_accent: "#C9A96E"
+  ui_label: "#8FBCBB"
+  ui_ok: "#A3BE8C"
+  ui_error: "#BF616A"
+  ui_warn: "#EBCB8B"
+  prompt: "#D4C5A9"
+  input_rule: "#8B7355"
+  response_border: "#C9A96E"
+  status_bar_bg: "#1E1E1E"
+  status_bar_text: "#D4C5A9"
+  status_bar_strong: "#E8D5B7"
+  status_bar_dim: "#6B5B4F"
+  status_bar_good: "#A3BE8C"
+  status_bar_warn: "#EBCB8B"
+  status_bar_bad: "#BF616A"
+  status_bar_critical: "#BF616A"
+  session_label: "#8FBCBB"
+  session_border: "#6B5B4F"
+  selection_bg: "#C9A96E40"
+  completion_menu_bg: "#1E1E1E"
+  completion_menu_current_bg: "#2C2820"
+  completion_menu_meta_bg: "#22201A"
+  completion_menu_meta_current_bg: "#2C2820"
+  voice_status_bg: "#1E1E1E"
+spinner:
+  waiting_faces:
+    - "(✍)"
+    - "(📜)"
+    - "(🖋)"
+    - "(○)"
+    - "(◉)"
+    - "(◎)"
+    - "(◌)"
+    - "(◇)"
+  thinking_faces:
+    - "(✍)"
+    - "(🖋)"
+    - "(◉)"
+    - "(◎)"
+    - "(◌)"
+    - "(📜)"
+  thinking_verbs:
+    - turning the page
+    - scribing the response
+    - consulting the archive
+    - warming the parchment
+    - drafting the folio
+    - illuminating the text
+    - binding the codex
+    - annotating the margins
+  wings:
+    - ["✍", "✍"]
+    - ["📜", "📜"]
+    - ["🖋", "🖋"]
+branding:
+  agent_name: "✍ Claude"
+  welcome: "Research journal active. Stone and parchment."
+  goodbye: "Folio closed."
+  response_label: " ✍ Claude "
+  prompt_symbol: "❯"
+  help_header: "(✍) Claude Commands"
+tool_prefix: "┊"

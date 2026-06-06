@@ -1,0 +1,69 @@
+name: futuristic
+description: Futuristic — tech-forward cyan and silver, sleek innovation, neon edge.
+colors:
+  banner_border: "#00E5FF"
+  banner_title: "#E0F7FA"
+  banner_accent: "#18FFFF"
+  banner_dim: "#4D6B80"
+  banner_text: "#B2EBF2"
+  ui_accent: "#00E5FF"
+  ui_label: "#76FF03"
+  ui_ok: "#00E676"
+  ui_error: "#FF1744"
+  ui_warn: "#FFEA00"
+  prompt: "#B2EBF2"
+  input_rule: "#00E5FF"
+  response_border: "#18FFFF"
+  status_bar_bg: "#0D1520"
+  status_bar_text: "#B2EBF2"
+  status_bar_strong: "#E0F7FA"
+  status_bar_dim: "#4D6B80"
+  status_bar_good: "#00E676"
+  status_bar_warn: "#FFEA00"
+  status_bar_bad: "#FF1744"
+  status_bar_critical: "#FF1744"
+  session_label: "#76FF03"
+  session_border: "#4D6B80"
+  selection_bg: "#00E5FF25"
+  completion_menu_bg: "#0D1520"
+  completion_menu_current_bg: "#1A2A40"
+  completion_menu_meta_bg: "#121E30"
+  completion_menu_meta_current_bg: "#1A2A40"
+  voice_status_bg: "#0D1520"
+spinner:
+  waiting_faces:
+    - "(⚡)"
+    - "(⟁)"
+    - "(⟐)"
+    - "(⟡)"
+    - "(⟢)"
+    - "(⟣)"
+    - "(⟤)"
+    - "(⟥)"
+  thinking_faces:
+    - "(⚡)"
+    - "(⟁)"
+    - "(⟐)"
+    - "(⟡)"
+    - "(⟢)"
+    - "(⟣)"
+  thinking_verbs:
+    - calibrating the nexus
+    - synchronizing the grid
+    - initializing the protocol
+    - booting the neural core
+    - establishing the link
+    - deploying the array
+    - engaging the drive
+  wings:
+    - ["⚡", "⚡"]
+    - ["⟁", "⟁"]
+    - ["⟐", "⟐"]
+branding:
+  agent_name: "⚡ FUTUR"
+  welcome: "Futuristic. Beyond the horizon."
+  goodbye: "Signal terminated."
+  response_label: " ⚡ FUTUR "
+  prompt_symbol: "⚡"
+  help_header: "(⚡) Futuristic Commands"
+tool_prefix: "┊"

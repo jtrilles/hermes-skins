@@ -1,0 +1,69 @@
+name: neon
+description: Neon — electric glow on deep dark, hot pink and cyan.
+colors:
+  banner_border: "#FF00FF"
+  banner_title: "#00FFFF"
+  banner_accent: "#FF69B4"
+  banner_dim: "#663399"
+  banner_text: "#E0E0FF"
+  ui_accent: "#FF00FF"
+  ui_label: "#00FFFF"
+  ui_ok: "#39FF14"
+  ui_error: "#FF0044"
+  ui_warn: "#FFD700"
+  prompt: "#E0E0FF"
+  input_rule: "#FF00FF"
+  response_border: "#00FFFF"
+  status_bar_bg: "#0A0015"
+  status_bar_text: "#E0E0FF"
+  status_bar_strong: "#00FFFF"
+  status_bar_dim: "#663399"
+  status_bar_good: "#39FF14"
+  status_bar_warn: "#FFD700"
+  status_bar_bad: "#FF0044"
+  status_bar_critical: "#FF0044"
+  session_label: "#FF69B4"
+  session_border: "#663399"
+  selection_bg: "#FF00FF25"
+  completion_menu_bg: "#0A0015"
+  completion_menu_current_bg: "#1E0030"
+  completion_menu_meta_bg: "#120020"
+  completion_menu_meta_current_bg: "#1E0030"
+  voice_status_bg: "#0A0015"
+spinner:
+  waiting_faces:
+    - "(💀)"
+    - "(🔥)"
+    - "(⚡)"
+    - "(◆)"
+    - "(◈)"
+    - "(◎)"
+    - "(✦)"
+    - "(✧)"
+  thinking_faces:
+    - "(💀)"
+    - "(⚡)"
+    - "(✦)"
+    - "(◎)"
+    - "(◆)"
+    - "(🔥)"
+  thinking_verbs:
+    - charging the neon
+    - pulsing the glow
+    - amplifying the signal
+    - igniting the tube
+    - refracting the light
+    - electrifying the grid
+    - surging the current
+  wings:
+    - ["⚡", "⚡"]
+    - ["🔥", "🔥"]
+    - ["✦", "✦"]
+branding:
+  agent_name: "⚡ NEON"
+  welcome: "Neon. Electric and alive."
+  goodbye: "Glow fading."
+  response_label: " ⚡ NEON "
+  prompt_symbol: "⚡"
+  help_header: "(⚡) Neon Commands"
+tool_prefix: "┊"

@@ -1,0 +1,63 @@
+name: ayu-dark
+description: Ayu Dark — warm amber-on-charcoal, professional sunset tones.
+colors:
+  banner_border: "#E6B450"
+  banner_title: "#FFB454"
+  banner_accent: "#39BAE6"
+  banner_dim: "#626d7a"
+  banner_text: "#BFBDB6"
+  ui_accent: "#E6B450"
+  ui_label: "#59C2FF"
+  ui_ok: "#AAD94C"
+  ui_error: "#D95757"
+  ui_warn: "#FF8F40"
+  prompt: "#BFBDB6"
+  input_rule: "#E6B450"
+  response_border: "#E6B450"
+  status_bar_bg: "#0D1017"
+  status_bar_text: "#BFBDB6"
+  status_bar_strong: "#FFB454"
+  status_bar_dim: "#626d7a"
+  status_bar_good: "#AAD94C"
+  status_bar_warn: "#FF8F40"
+  status_bar_bad: "#D95757"
+  status_bar_critical: "#D95757"
+  session_label: "#59C2FF"
+  session_border: "#626d7a"
+  selection_bg: "#3388FF40"
+  completion_menu_bg: "#0D1017"
+  completion_menu_current_bg: "#161A24"
+  completion_menu_meta_bg: "#10141C"
+  completion_menu_meta_current_bg: "#161A24"
+  voice_status_bg: "#0D1017"
+spinner:
+  waiting_faces:
+    - "(☕)"
+    - "(⎇)"
+    - "(◆)"
+    - "(●)"
+    - "(○)"
+    - "(◇)"
+  thinking_faces:
+    - "(☕)"
+    - "(⎇)"
+    - "(◆)"
+    - "(●)"
+  thinking_verbs:
+    - brewing the payload
+    - warming the terminal
+    - amber processing
+    - sunset compiling
+    - roasting the logic
+    - pouring the analysis
+  wings:
+    - ["☕", "☕"]
+    - ["⎇", "⎇"]
+branding:
+  agent_name: "☕ Ayu"
+  welcome: "Ayu Dark. Warm and ready."
+  goodbye: "Sunset complete."
+  response_label: " ☕ Ayu "
+  prompt_symbol: "❯"
+  help_header: "(☕) Ayu Commands"
+tool_prefix: "┊"

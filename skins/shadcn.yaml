@@ -1,0 +1,64 @@
+name: shadcn
+description: Shadcn — minimal monochrome, warm neutral, utility-first clarity.
+colors:
+  banner_border: "#52525B"
+  banner_title: "#FAFAFA"
+  banner_accent: "#A1A1AA"
+  banner_dim: "#71717A"
+  banner_text: "#D4D4D8"
+  ui_accent: "#A1A1AA"
+  ui_label: "#818CF8"
+  ui_ok: "#7CCB8E"
+  ui_error: "#F87171"
+  ui_warn: "#FBBF24"
+  prompt: "#D4D4D8"
+  input_rule: "#52525B"
+  response_border: "#52525B"
+  status_bar_bg: "#09090B"
+  status_bar_text: "#D4D4D8"
+  status_bar_strong: "#FAFAFA"
+  status_bar_dim: "#71717A"
+  status_bar_good: "#7CCB8E"
+  status_bar_warn: "#FBBF24"
+  status_bar_bad: "#F87171"
+  status_bar_critical: "#F87171"
+  session_label: "#818CF8"
+  session_border: "#52525B"
+  selection_bg: "#FFFFFF15"
+  completion_menu_bg: "#09090B"
+  completion_menu_current_bg: "#18181B"
+  completion_menu_meta_bg: "#111113"
+  completion_menu_meta_current_bg: "#18181B"
+  voice_status_bg: "#09090B"
+spinner:
+  waiting_faces:
+    - "(•)"
+    - "(○)"
+    - "(◔)"
+    - "(◕)"
+    - "(◎)"
+    - "(●)"
+  thinking_faces:
+    - "(○)"
+    - "(◔)"
+    - "(◕)"
+    - "(◎)"
+  thinking_verbs:
+    - composing the slot
+    - rendering the variant
+    - aligning the grid
+    - sizing the component
+    - resolving the utility
+    - polishing the primitive
+  wings:
+    - ["○", "○"]
+    - ["●", "●"]
+    - ["◎", "◎"]
+branding:
+  agent_name: "○ shadcn"
+  welcome: "shadcn. Clean slate."
+  goodbye: "Composition saved."
+  response_label: " ○ shadcn "
+  prompt_symbol: "○"
+  help_header: "(○) shadcn Commands"
+tool_prefix: "┊"

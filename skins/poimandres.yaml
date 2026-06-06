@@ -1,0 +1,63 @@
+name: poimandres
+description: Poimandres — deep navy and bright mint, hermetic and clean.
+colors:
+  banner_border: "#5DE4c7"
+  banner_title: "#e4f0fb"
+  banner_accent: "#00CED1"
+  banner_dim: "#506477"
+  banner_text: "#a6accd"
+  ui_accent: "#5DE4c7"
+  ui_label: "#00CED1"
+  ui_ok: "#5DE4c7"
+  ui_error: "#e05f65"
+  ui_warn: "#f1d08a"
+  prompt: "#a6accd"
+  input_rule: "#5DE4c7"
+  response_border: "#5DE4c7"
+  status_bar_bg: "#1b1e28"
+  status_bar_text: "#a6accd"
+  status_bar_strong: "#5DE4c7"
+  status_bar_dim: "#506477"
+  status_bar_good: "#5DE4c7"
+  status_bar_warn: "#f1d08a"
+  status_bar_bad: "#e05f65"
+  status_bar_critical: "#e05f65"
+  session_label: "#00CED1"
+  session_border: "#506477"
+  selection_bg: "#5DE4c730"
+  completion_menu_bg: "#1b1e28"
+  completion_menu_current_bg: "#303340"
+  completion_menu_meta_bg: "#242736"
+  completion_menu_meta_current_bg: "#303340"
+  voice_status_bg: "#1b1e28"
+spinner:
+  waiting_faces:
+    - "(⎓)"
+    - "(⏣)"
+    - "(⌘)"
+    - "(⎈)"
+    - "(⌥)"
+    - "(◇)"
+  thinking_faces:
+    - "(⎓)"
+    - "(⏣)"
+    - "(⌘)"
+    - "(⎈)"
+  thinking_verbs:
+    - consulting the hermetic text
+    - channeling cosmic flow
+    - aligning the spheres
+    - mint processing
+    - diving the deep navy
+    - invoking the glyph
+  wings:
+    - ["⎓", "⎓"]
+    - ["⏣", "⏣"]
+branding:
+  agent_name: "⎓ Poimandres"
+  welcome: "Poimandres. Cosmic clarity."
+  goodbye: "⎓ The current subsides."
+  response_label: " ⎓ Hermes "
+  prompt_symbol: "⎓"
+  help_header: "(⎓) Poimandres Commands"
+tool_prefix: "┊"

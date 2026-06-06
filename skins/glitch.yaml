@@ -1,0 +1,69 @@
+name: glitch
+description: Glitch — corrupted signal, digital artifact, scanline distortion, terminal decay.
+colors:
+  banner_border: "#7FFF00"
+  banner_title: "#FFFFFF"
+  banner_accent: "#FF00FF"
+  banner_dim: "#555555"
+  banner_text: "#C0C0C0"
+  ui_accent: "#7FFF00"
+  ui_label: "#FF00FF"
+  ui_ok: "#00FF00"
+  ui_error: "#FF0000"
+  ui_warn: "#FFFF00"
+  prompt: "#C0C0C0"
+  input_rule: "#7FFF00"
+  response_border: "#FF00FF"
+  status_bar_bg: "#080808"
+  status_bar_text: "#C0C0C0"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#555555"
+  status_bar_good: "#00FF00"
+  status_bar_warn: "#FFFF00"
+  status_bar_bad: "#FF0000"
+  status_bar_critical: "#FF0000"
+  session_label: "#FF00FF"
+  session_border: "#333333"
+  selection_bg: "#7FFF0020"
+  completion_menu_bg: "#080808"
+  completion_menu_current_bg: "#141414"
+  completion_menu_meta_bg: "#0C0C0C"
+  completion_menu_meta_current_bg: "#141414"
+  voice_status_bg: "#080808"
+spinner:
+  waiting_faces:
+    - "(⛔)"
+    - "(⚠)"
+    - "(⚡)"
+    - "(❗)"
+    - "(❓)"
+    - "(▪)"
+    - "(▫)"
+    - "(▣)"
+  thinking_faces:
+    - "(⛔)"
+    - "(⚠)"
+    - "(⚡)"
+    - "(❗)"
+    - "(❓)"
+    - "(▣)"
+  thinking_verbs:
+    - corrupting the frame
+    - desyncing the buffer
+    - fragmenting the sector
+    - scrambling the raster
+    - tearing the scanline
+    - overflowing the stack
+    - glitching the matrix
+  wings:
+    - ["⚠", "⚠"]
+    - ["⚡", "⚡"]
+    - ["❗", "❗"]
+branding:
+  agent_name: "⚠ GLITCH"
+  welcome: "Glitch. Signal integrity failing."
+  goodbye: "System corrupted. Rebooting."
+  response_label: " ⚠ GLITCH "
+  prompt_symbol: "⚠"
+  help_header: "(⚠) Glitch Commands"
+tool_prefix: "┊"

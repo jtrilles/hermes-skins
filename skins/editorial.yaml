@@ -1,0 +1,69 @@
+name: editorial
+description: Editorial — magazine-inspired, refined serif layout, structured clarity.
+colors:
+  banner_border: "#8B4513"
+  banner_title: "#FFF8F0"
+  banner_accent: "#CD853F"
+  banner_dim: "#6B5B4F"
+  banner_text: "#E8DDD0"
+  ui_accent: "#CD853F"
+  ui_label: "#5F9EA0"
+  ui_ok: "#6B8E23"
+  ui_error: "#A52A2A"
+  ui_warn: "#DAA520"
+  prompt: "#E8DDD0"
+  input_rule: "#8B4513"
+  response_border: "#CD853F"
+  status_bar_bg: "#1A1816"
+  status_bar_text: "#E8DDD0"
+  status_bar_strong: "#FFF8F0"
+  status_bar_dim: "#6B5B4F"
+  status_bar_good: "#6B8E23"
+  status_bar_warn: "#DAA520"
+  status_bar_bad: "#A52A2A"
+  status_bar_critical: "#A52A2A"
+  session_label: "#5F9EA0"
+  session_border: "#6B5B4F"
+  selection_bg: "#CD853F30"
+  completion_menu_bg: "#1A1816"
+  completion_menu_current_bg: "#2C2820"
+  completion_menu_meta_bg: "#221F1A"
+  completion_menu_meta_current_bg: "#2C2820"
+  voice_status_bg: "#1A1816"
+spinner:
+  waiting_faces:
+    - "(¶)"
+    - "(§)"
+    - "(†)"
+    - "(‡)"
+    - "(•)"
+    - "(⁂)"
+    - "(※)"
+    - "(❧)"
+  thinking_faces:
+    - "(¶)"
+    - "(§)"
+    - "(†)"
+    - "(‡)"
+    - "(•)"
+    - "(⁂)"
+  thinking_verbs:
+    - setting the headline
+    - composing the spread
+    - proofing the galley
+    - adjusting the leading
+    - rendering the column
+    - aligning the grid
+    - pitching the feature
+  wings:
+    - ["¶", "¶"]
+    - ["§", "§"]
+    - ["†", "†"]
+branding:
+  agent_name: "¶ EDIT"
+  welcome: "Editorial. Narrative in every spread."
+  goodbye: "Press run finished."
+  response_label: " ¶ EDIT "
+  prompt_symbol: "¶"
+  help_header: "(¶) Editorial Commands"
+tool_prefix: "┊"

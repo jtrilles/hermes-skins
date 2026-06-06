@@ -1,0 +1,69 @@
+name: vibrant
+description: Vibrant — lively multicolor, bold playful energy, warm dynamic tones.
+colors:
+  banner_border: "#FF6B6B"
+  banner_title: "#FFFFFF"
+  banner_accent: "#FFD93D"
+  banner_dim: "#6C5B7B"
+  banner_text: "#F8F0E5"
+  ui_accent: "#FF6B6B"
+  ui_label: "#6BCB77"
+  ui_ok: "#4D96FF"
+  ui_error: "#FF4757"
+  ui_warn: "#FFA502"
+  prompt: "#F8F0E5"
+  input_rule: "#FF6B6B"
+  response_border: "#FFD93D"
+  status_bar_bg: "#1A1A2E"
+  status_bar_text: "#F8F0E5"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#6C5B7B"
+  status_bar_good: "#6BCB77"
+  status_bar_warn: "#FFA502"
+  status_bar_bad: "#FF4757"
+  status_bar_critical: "#FF4757"
+  session_label: "#6BCB77"
+  session_border: "#6C5B7B"
+  selection_bg: "#FF6B6B30"
+  completion_menu_bg: "#1A1A2E"
+  completion_menu_current_bg: "#2D2A4A"
+  completion_menu_meta_bg: "#22203A"
+  completion_menu_meta_current_bg: "#2D2A4A"
+  voice_status_bg: "#1A1A2E"
+spinner:
+  waiting_faces:
+    - "(✦)"
+    - "(✧)"
+    - "(★)"
+    - "(☆)"
+    - "(◈)"
+    - "(◎)"
+    - "(◆)"
+    - "(◇)"
+  thinking_faces:
+    - "(✦)"
+    - "(✧)"
+    - "(★)"
+    - "(◈)"
+    - "(◎)"
+    - "(◆)"
+  thinking_verbs:
+    - igniting the palette
+    - pumping the energy
+    - amplifying the signal
+    - charging the spectrum
+    - boosting the frequency
+    - saturating the tone
+    - radiating the vibe
+  wings:
+    - ["✦", "✦"]
+    - ["★", "★"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "★ VIBE"
+  welcome: "Vibrant. Full color, full power."
+  goodbye: "Energy dispersed."
+  response_label: " ★ VIBE "
+  prompt_symbol: "★"
+  help_header: "(★) Vibrant Commands"
+tool_prefix: "┊"

@@ -1,0 +1,68 @@
+name: cyberpunk
+description: Cyberpunk — neon green and hot pink on near-black, hacker edge.
+colors:
+  banner_border: "#00FF9D"
+  banner_title: "#FF2A6D"
+  banner_accent: "#00FF9D"
+  banner_dim: "#00aaaa"
+  banner_text: "#F5F5F5"
+  ui_accent: "#00FF9D"
+  ui_label: "#01CDFE"
+  ui_ok: "#05FF00"
+  ui_error: "#FF2A6D"
+  ui_warn: "#FFE600"
+  prompt: "#E0FFEF"
+  input_rule: "#00FF9D"
+  response_border: "#FF2A6D"
+  status_bar_bg: "#0A1114"
+  status_bar_text: "#00aaaa"
+  status_bar_strong: "#5EEAD4"
+  status_bar_dim: "#00aaaa"
+  status_bar_good: "#6EE7B7"
+  status_bar_warn: "#FFE600"
+  status_bar_bad: "#FF2A6D"
+  status_bar_critical: "#FF2A6D"
+  session_label: "#01CDFE"
+  session_border: "#00aaaa"
+  selection_bg: "#003322"
+  completion_menu_bg: "#0A1114"
+  completion_menu_current_bg: "#122A26"
+  completion_menu_meta_bg: "#0C1A1E"
+  completion_menu_meta_current_bg: "#1A3C3A"
+  voice_status_bg: "#0A1114"
+spinner:
+  waiting_faces:
+    - "(⡇)"
+    - "(⣇)"
+    - "(⣿)"
+    - "(⣆)"
+    - "(⡏)"
+    - "(⡧)"
+    - "(⢎)"
+    - "(⠮)"
+  thinking_faces:
+    - "(⡇)"
+    - "(⣇)"
+    - "(⣿)"
+    - "(⡏)"
+    - "(⢎)"
+    - "(⠮)"
+  thinking_verbs:
+    - jacking into the matrix
+    - decrypting the payload
+    - bypassing the firewall
+    - compiling the exploit
+    - overriding the kernel
+    - injecting the thread
+  wings:
+    - ["⟪⡇", "⡇⟫"]
+    - ["⟪⣿", "⣿⟫"]
+    - ["⟪⡏", "⡏⟫"]
+branding:
+  agent_name: "⡇ CYBER"
+  welcome: "Cyberpunk. System breach detected."
+  goodbye: "Connection terminated."
+  response_label: " ⡇ CYBER "
+  prompt_symbol: "⡇"
+  help_header: "(⡇) Cyberpunk Commands"
+tool_prefix: "┊"

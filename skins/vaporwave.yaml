@@ -1,0 +1,69 @@
+name: vaporwave
+description: Vaporwave — synthwave outrun, hot pink sunset, cyan grid, retro-future neon.
+colors:
+  banner_border: "#FF6B9D"
+  banner_title: "#FFD1DC"
+  banner_accent: "#00FFFF"
+  banner_dim: "#6B3FA0"
+  banner_text: "#E0B0FF"
+  ui_accent: "#FF6B9D"
+  ui_label: "#00FFFF"
+  ui_ok: "#39FF14"
+  ui_error: "#FF0055"
+  ui_warn: "#FFD700"
+  prompt: "#E0B0FF"
+  input_rule: "#FF6B9D"
+  response_border: "#00FFFF"
+  status_bar_bg: "#0A0020"
+  status_bar_text: "#E0B0FF"
+  status_bar_strong: "#FFD1DC"
+  status_bar_dim: "#6B3FA0"
+  status_bar_good: "#39FF14"
+  status_bar_warn: "#FFD700"
+  status_bar_bad: "#FF0055"
+  status_bar_critical: "#FF0055"
+  session_label: "#00FFFF"
+  session_border: "#4A2080"
+  selection_bg: "#FF6B9D30"
+  completion_menu_bg: "#0A0020"
+  completion_menu_current_bg: "#1E0A3A"
+  completion_menu_meta_bg: "#14052C"
+  completion_menu_meta_current_bg: "#1E0A3A"
+  voice_status_bg: "#0A0020"
+spinner:
+  waiting_faces:
+    - "(◥)"
+    - "(▲)"
+    - "(▶)"
+    - "(▼)"
+    - "(◀)"
+    - "(◆)"
+    - "(◇)"
+    - "(◈)"
+  thinking_faces:
+    - "(◥)"
+    - "(▶)"
+    - "(▼)"
+    - "(◀)"
+    - "(◆)"
+    - "(◇)"
+  thinking_verbs:
+    - cruising the neon grid
+    - rewinding the cassette
+    - basking in sunset
+    - sampling the analog
+    - fading into the scanline
+    - pulsing the bassline
+    - chasing the retro-wave
+  wings:
+    - ["▶", "▶"]
+    - ["▲", "▲"]
+    - ["◆", "◆"]
+branding:
+  agent_name: "▶ VAPOR"
+  welcome: "Vaporwave. Sunset on the neon grid."
+  goodbye: "Signal lost to the static."
+  response_label: " ▶ VAPOR "
+  prompt_symbol: "▶"
+  help_header: "(▶) Vaporwave Commands"
+tool_prefix: "┊"

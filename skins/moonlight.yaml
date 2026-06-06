@@ -1,0 +1,63 @@
+name: moonlight
+description: Moonlight — cool deep indigo-cyan, sharp nocturnal focus.
+colors:
+  banner_border: "#78dbff"
+  banner_title: "#ffc777"
+  banner_accent: "#3ad7c7"
+  banner_dim: "#506477"
+  banner_text: "#c8d3e0"
+  ui_accent: "#78dbff"
+  ui_label: "#3ad7c7"
+  ui_ok: "#c3e88d"
+  ui_error: "#ff757f"
+  ui_warn: "#ffc777"
+  prompt: "#c8d3e0"
+  input_rule: "#78dbff"
+  response_border: "#78dbff"
+  status_bar_bg: "#0b0f18"
+  status_bar_text: "#c8d3e0"
+  status_bar_strong: "#78dbff"
+  status_bar_dim: "#506477"
+  status_bar_good: "#c3e88d"
+  status_bar_warn: "#ffc777"
+  status_bar_bad: "#ff757f"
+  status_bar_critical: "#ff757f"
+  session_label: "#3ad7c7"
+  session_border: "#506477"
+  selection_bg: "#78dbff30"
+  completion_menu_bg: "#0b0f18"
+  completion_menu_current_bg: "#1a2332"
+  completion_menu_meta_bg: "#111827"
+  completion_menu_meta_current_bg: "#1a2332"
+  voice_status_bg: "#0b0f18"
+spinner:
+  waiting_faces:
+    - "(🌙)"
+    - "(☾)"
+    - "(⋆｡)"
+    - "(°✩)"
+    - "(❆)"
+    - "(❅)"
+  thinking_faces:
+    - "(🌙)"
+    - "(☾)"
+    - "(⋆｡)"
+    - "(°✩)"
+  thinking_verbs:
+    - charting the stars
+    - aligning lunar phase
+    - cooling the circuits
+    - focusing the lens
+    - hunting the eclipse
+    - reading by moonlight
+  wings:
+    - ["🌙", "🌙"]
+    - ["☾", "☾"]
+branding:
+  agent_name: "🌙 Moonlight"
+  welcome: "Moonlight. Sharp and cool."
+  goodbye: "Stars fading. ☾"
+  response_label: " 🌙 Lunar "
+  prompt_symbol: "☾"
+  help_header: "(🌙) Lunar Commands"
+tool_prefix: "┊"

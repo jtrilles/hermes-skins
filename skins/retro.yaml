@@ -1,0 +1,69 @@
+name: retro
+description: Retro — vintage terminal amber and teal, warm CRT glow.
+colors:
+  banner_border: "#FFB347"
+  banner_title: "#FFD700"
+  banner_accent: "#2AA198"
+  banner_dim: "#8B7355"
+  banner_text: "#E0D5C1"
+  ui_accent: "#FFB347"
+  ui_label: "#2AA198"
+  ui_ok: "#859900"
+  ui_error: "#DC322F"
+  ui_warn: "#CB4B16"
+  prompt: "#E0D5C1"
+  input_rule: "#FFB347"
+  response_border: "#2AA198"
+  status_bar_bg: "#1C1A16"
+  status_bar_text: "#E0D5C1"
+  status_bar_strong: "#FFD700"
+  status_bar_dim: "#8B7355"
+  status_bar_good: "#859900"
+  status_bar_warn: "#CB4B16"
+  status_bar_bad: "#DC322F"
+  status_bar_critical: "#DC322F"
+  session_label: "#2AA198"
+  session_border: "#8B7355"
+  selection_bg: "#FFB34730"
+  completion_menu_bg: "#1C1A16"
+  completion_menu_current_bg: "#2E281E"
+  completion_menu_meta_bg: "#242018"
+  completion_menu_meta_current_bg: "#2E281E"
+  voice_status_bg: "#1C1A16"
+spinner:
+  waiting_faces:
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◑)"
+    - "(◒)"
+    - "(◓)"
+    - "(●)"
+    - "(○)"
+  thinking_faces:
+    - "(◉)"
+    - "(◎)"
+    - "(◐)"
+    - "(◑)"
+    - "(●)"
+    - "(○)"
+  thinking_verbs:
+    - rewinding the tape
+    - warming the cathode
+    - scanning the phosphor
+    - tracking the signal
+    - tuning the frequency
+    - rendering the raster
+    - seeking the sector
+  wings:
+    - ["◉", "◉"]
+    - ["◎", "◎"]
+    - ["●", "●"]
+branding:
+  agent_name: "◉ RETRO"
+  welcome: "Retro. Amber glow, analog soul."
+  goodbye: "Signal lost."
+  response_label: " ◉ RETRO "
+  prompt_symbol: "◉"
+  help_header: "(◉) Retro Commands"
+tool_prefix: "┊"

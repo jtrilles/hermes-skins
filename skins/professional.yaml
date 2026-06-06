@@ -1,0 +1,68 @@
+name: professional
+description: Professional — polished business-ready, navy and steel, trustworthy.
+colors:
+  banner_border: "#3B82F6"
+  banner_title: "#EFF6FF"
+  banner_accent: "#60A5FA"
+  banner_dim: "#64748B"
+  banner_text: "#CBD5E1"
+  ui_accent: "#3B82F6"
+  ui_label: "#38BDF8"
+  ui_ok: "#4ADE80"
+  ui_error: "#F87171"
+  ui_warn: "#FBBF24"
+  prompt: "#CBD5E1"
+  input_rule: "#3B82F6"
+  response_border: "#3B82F6"
+  status_bar_bg: "#0F172A"
+  status_bar_text: "#CBD5E1"
+  status_bar_strong: "#EFF6FF"
+  status_bar_dim: "#64748B"
+  status_bar_good: "#4ADE80"
+  status_bar_warn: "#FBBF24"
+  status_bar_bad: "#F87171"
+  status_bar_critical: "#F87171"
+  session_label: "#38BDF8"
+  session_border: "#64748B"
+  selection_bg: "#3B82F630"
+  completion_menu_bg: "#0F172A"
+  completion_menu_current_bg: "#1E293B"
+  completion_menu_meta_bg: "#141E2E"
+  completion_menu_meta_current_bg: "#1E293B"
+  voice_status_bg: "#0F172A"
+spinner:
+  waiting_faces:
+    - "(◆)"
+    - "(◇)"
+    - "(◈)"
+    - "(○)"
+    - "(●)"
+    - "(■)"
+    - "(□)"
+    - "(▪)"
+  thinking_faces:
+    - "(◆)"
+    - "(◇)"
+    - "(◈)"
+    - "(○)"
+    - "(●)"
+  thinking_verbs:
+    - processing the workflow
+    - executing the pipeline
+    - analyzing the data
+    - compiling the report
+    - validating the output
+    - optimizing the process
+    - generating the deliverable
+  wings:
+    - ["◆", "◆"]
+    - ["◇", "◇"]
+    - ["◈", "◈"]
+branding:
+  agent_name: "◆ Professional"
+  welcome: "Professional. Ready for business."
+  goodbye: "Session archived."
+  response_label: " ◆ Professional "
+  prompt_symbol: "◆"
+  help_header: "(◆) Professional Commands"
+tool_prefix: "┊"

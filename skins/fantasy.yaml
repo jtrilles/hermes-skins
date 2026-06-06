@@ -1,0 +1,69 @@
+name: fantasy
+description: Fantasy — epic deep purple and gold, magical bold premium visuals.
+colors:
+  banner_border: "#7B2D8E"
+  banner_title: "#F5E6FF"
+  banner_accent: "#FFD700"
+  banner_dim: "#5C2E7A"
+  banner_text: "#E0CCF0"
+  ui_accent: "#7B2D8E"
+  ui_label: "#FFD700"
+  ui_ok: "#48C774"
+  ui_error: "#E74C3C"
+  ui_warn: "#F39C12"
+  prompt: "#E0CCF0"
+  input_rule: "#7B2D8E"
+  response_border: "#FFD700"
+  status_bar_bg: "#100815"
+  status_bar_text: "#E0CCF0"
+  status_bar_strong: "#F5E6FF"
+  status_bar_dim: "#5C2E7A"
+  status_bar_good: "#48C774"
+  status_bar_warn: "#F39C12"
+  status_bar_bad: "#E74C3C"
+  status_bar_critical: "#E74C3C"
+  session_label: "#FFD700"
+  session_border: "#5C2E7A"
+  selection_bg: "#7B2D8E30"
+  completion_menu_bg: "#100815"
+  completion_menu_current_bg: "#201528"
+  completion_menu_meta_bg: "#180E1E"
+  completion_menu_meta_current_bg: "#201528"
+  voice_status_bg: "#100815"
+spinner:
+  waiting_faces:
+    - "(⚔)"
+    - "(🛡)"
+    - "(✦)"
+    - "(✧)"
+    - "(◆)"
+    - "(◇)"
+    - "(★)"
+    - "(☆)"
+  thinking_faces:
+    - "(⚔)"
+    - "(🛡)"
+    - "(✦)"
+    - "(✧)"
+    - "(◆)"
+    - "(★)"
+  thinking_verbs:
+    - casting the spell
+    - forging the blade
+    - summoning the ancients
+    - unlocking the vault
+    - scrying the realm
+    - enchanting the artifact
+    - consulting the oracle
+  wings:
+    - ["⚔", "⚔"]
+    - ["✦", "✦"]
+    - ["★", "★"]
+branding:
+  agent_name: "⚔ FANTASY"
+  welcome: "Fantasy. The realm awaits."
+  goodbye: "Portal closed."
+  response_label: " ⚔ FANTASY "
+  prompt_symbol: "⚔"
+  help_header: "(⚔) Fantasy Commands"
+tool_prefix: "┊"

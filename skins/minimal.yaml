@@ -1,0 +1,63 @@
+name: minimal
+description: Minimal — stripped-back whitespace, restrained color, maximum focus.
+colors:
+  banner_border: "#3D3D3D"
+  banner_title: "#F0F0F0"
+  banner_accent: "#7C7C7C"
+  banner_dim: "#5A5A5A"
+  banner_text: "#D0D0D0"
+  ui_accent: "#7C7C7C"
+  ui_label: "#88C0D0"
+  ui_ok: "#7CCB8E"
+  ui_error: "#D87A7A"
+  ui_warn: "#D9B07A"
+  prompt: "#D0D0D0"
+  input_rule: "#3D3D3D"
+  response_border: "#4A4A4A"
+  status_bar_bg: "#121212"
+  status_bar_text: "#D0D0D0"
+  status_bar_strong: "#F0F0F0"
+  status_bar_dim: "#5A5A5A"
+  status_bar_good: "#7CCB8E"
+  status_bar_warn: "#D9B07A"
+  status_bar_bad: "#D87A7A"
+  status_bar_critical: "#D87A7A"
+  session_label: "#88C0D0"
+  session_border: "#3D3D3D"
+  selection_bg: "#FFFFFF18"
+  completion_menu_bg: "#121212"
+  completion_menu_current_bg: "#1E1E1E"
+  completion_menu_meta_bg: "#161616"
+  completion_menu_meta_current_bg: "#1E1E1E"
+  voice_status_bg: "#121212"
+spinner:
+  waiting_faces:
+    - "(·)"
+    - "(∘)"
+    - "(○)"
+    - "(◌)"
+    - "(◡)"
+    - "(·)"
+  thinking_faces:
+    - "(·)"
+    - "(∘)"
+    - "(○)"
+    - "(◌)"
+  thinking_verbs:
+    - paring down
+    - clearing space
+    - breathing the grid
+    - stripping the frame
+    - reducing to essence
+  wings:
+    - ["·", "·"]
+    - ["∘", "∘"]
+    - ["○", "○"]
+branding:
+  agent_name: "· Minimal"
+  welcome: "Minimal. Nothing extra."
+  goodbye: "Cleared."
+  response_label: " · Minimal "
+  prompt_symbol: "·"
+  help_header: "(·) Minimal Commands"
+tool_prefix: " "
