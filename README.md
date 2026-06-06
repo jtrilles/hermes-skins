@@ -1,103 +1,153 @@
-# Hermes Skins 🎨
-
 <p align="center">
-  <img src="https://img.shields.io/badge/skins-39-FF6B9D" alt="39 skins">
-  <img src="https://img.shields.io/badge/hermes%20agent-ready-00E5FF" alt="Hermes Agent">
-  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
-  <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs welcome">
+  <img src="https://img.shields.io/badge/skins-39-FF6B9D?style=for-the-badge&logo=terminal&logoColor=white" alt="39 Skins">
+  <img src="https://img.shields.io/badge/platform-CLI-00E5FF?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="CLI">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="MIT">
+  <img src="https://img.shields.io/github/stars/jtrilles/hermes-skins?style=for-the-badge&logo=github" alt="Stars">
 </p>
 
-A curated collection of **39 premium skins** for [Hermes Agent](https://hermes-agent.nouresearch.com) — spanning hacker terminals, editorial refinement, retro arcade, dark enterprise, and minimalist design.
+<h1 align="center">⌨️ CLI Skins</h1>
 
-Every skin is a YAML file that controls the full CLI appearance: banner colors, spinner animations, branding text, tool prefixes, and completion menu palettes. Drop one in, switch with `/skin <name>`, and your terminal transforms instantly.
+<p align="center">
+  <b>39 premium terminal skins for your AI agent's CLI.</b><br>
+  Dark mode. High contrast. Zero bloat.<br>
+  Drop in. `/skin <name>`. Instant vibe shift.
+</p>
+
+<p align="center">
+  <code>git clone https://github.com/jtrilles/hermes-skins.git</code><br>
+  <code>cp hermes-skins/skins/*.yaml ~/.hermes/skins/</code>
+</p>
 
 ---
 
-## ✨ Preview
+## 🌟 Why CLI Skins?
 
-| Skin | Vibe | Preview |
+Your terminal is where you live. It should feel right.
+
+Most AI agent CLIs ship with one or two themes — and they're generic. This collection delivers **39 hand-tuned color palettes**, each with:
+
+- **22 color tokens** — banner, UI, status bars, completion menus, every surface
+- **Animated spinners** — themed waiting faces, thinking verbs, wing brackets
+- **Full branding** — agent name, welcome/goodbye, prompt symbol, response label
+- **CLI-native design** — dark backgrounds, WCAG-compliant contrast, no light-mode assumptions
+
+Every skin is a standalone YAML file. No dependencies. No build step. Just drop it in.
+
+---
+
+## 🎨 The Collection
+
+### ☠️ Hacker / Cyber (8)
+
+| Skin | Vibe | Install |
 |------|------|---------|
-| `vaporwave` | Synthwave outrun — hot pink, cyan, purple sunset | `▶ VAPOR` · pink/cyan borders |
-| `darkweb` | .onion noir — deep red on near-black | `◉ DARK` · crimson/burgundy |
-| `phreak` | Blue box era — Bell System tones | `♪ PHREAK` · deep blue/cyan |
-| `glitch` | Corrupted signal — scanline decay | `⚠ GLITCH` · chartreuse/magenta |
-| `cypher` | Cypherpunk green — PGP encryption | `🔑 CYPHER` · encryption green/teal |
-| `cyberpunk` | Classic neon green, hot pink hacker edge | `⡇ CYBER` · matrix green/hot pink |
-| `matrix` | Green phosphor on black, code rain | `0 MATRIX` · monochrome green |
-| `neon` | Electric pink/cyan glow on deep dark | `⚡ NEON` · electric pink/cyan |
-| `retro` | Vintage amber/teal CRT warm glow | `◉ RETRO` · amber/teal CRT |
-| `cosmic` | Deep space purple, nebula pink, star cyan | `✦ COSMIC` · purple/cyan/stars |
-| `brutalism` | Raw concrete, stark black/white | `■ BRUTE` · orange/charcoal |
-| `luxury` | Dark monochrome, gold accents | `♦ LUXE` · black/gold/ivory |
-| `editorial` | Magazine serif, structured clarity | `¶ EDIT` · saddle brown/teal |
-| `elegant` | Graceful pastels, soft sophistication | `✿ Elegant` · lavender/pink/teal |
-| `futuristic` | Tech-forward cyan/silver, sleek | `⚡ FUTUR` · cyan/lime/silver |
-| `vibrant` | Lively multicolor, bold energy | `★ VIBE` · coral/yellow/blue |
-| `cafe` | Warm brown/cream, cozy coffeehouse | `☕ Cafe` · mocha/cream/teal |
-| `fantasy` | Epic purple/gold, magical premium | `⚔ FANTASY` · royal purple/gold |
-| `clean` | Pure simplicity, restrained color | `○ Clean` · blue-gray/teal |
-| `dashboard` | Dark cloud-platform, data viz colors | `◈ DASH` · cyan/orange/dark |
-| `neobrutalism` | Bold neon-orange, raw high-contrast | `⬥ Neo` · orange/yellow/cyan |
-| `terracotta` | Sun-baked clay, warm cream on fired earth | `🏺 Terracotta` · terracotta/cream |
-| `professional` | Navy/steel, polished business-ready | `◆ Professional` · blue/navy/steel |
-| `premium` | Apple-inspired, clean precision | `● Premium` · system blue/green/red |
-| `modern` | Editorial serif, minimal typography | `§ Modern` · gray/blue/silver |
-| `contemporary` | Dark bento grid, current-era minimal | `◈ Contemporary` · teal/cyan/navy |
-| `sleek` | Clean lines, intentional palette | `─ Sleek` · steel blue/teal |
-| `shadcn` | Minimal monochrome, warm neutral | `○ shadcn` · zinc/indigo/warm |
-| `minimal` | Stripped whitespace, maximum focus | `· Minimal` · barely-there gray |
-| `codex` | Radical blank canvas, pure edge-to-edge | `■ Codex` · pure black/white |
-| `claude` | Warm stone journal, ivory parchment | `✍ Claude` · stone/amber/cream |
-| `metal-slug` | 16-bit arcade blue/red, retro power | `★ METAL` · cobalt/red/yellow |
-| `lavi` | Lavender-pink gradient, soft elegant | `✿ Lavi` · lavender/pink |
-| `ayu-dark` | Warm amber-charcoal, professional | `☕ Ayu` · amber/charcoal/blue |
-| `aura` | Purple neon, calm precise | `✦ AURA` · violet/mint/blue |
-| `moonlight` | Deep indigo-cyan, nocturnal focus | `◐ Moonlight` · indigo/cyan/amber |
-| `poimandres` | Deep navy-mint, hermetic clarity | `◆ Poimandres` · navy/mint |
-| `poimandres-accessible` | High-contrast navy-mint | `◇ Poimandres-A11Y` · high-contrast |
-| `poimandres-turquoise-expanded` | Navy-mint-turquoise, richer palette | `● Poimandres-Turq` · expanded teal |
+| `cyberpunk` | Classic neon green, hot pink on black | `cp skins/cyberpunk.yaml ~/.hermes/skins/` |
+| `matrix` | Green phosphor code rain, pure monochrome | `cp skins/matrix.yaml ~/.hermes/skins/` |
+| `neon` | Electric pink/cyan glow on deep dark | `cp skins/neon.yaml ~/.hermes/skins/` |
+| `vaporwave` | Synthwave outrun, hot pink/cyan sunset grid | `cp skins/vaporwave.yaml ~/.hermes/skins/` |
+| `darkweb` | Deep red .onion terminal noir | `cp skins/darkweb.yaml ~/.hermes/skins/` |
+| `cypher` | Cypherpunk green, PGP encryption aesthetic | `cp skins/cypher.yaml ~/.hermes/skins/` |
+| `phreak` | Blue box era, Bell System analog tones | `cp skins/phreak.yaml ~/.hermes/skins/` |
+| `glitch` | Corrupted signal, digital artifact decay | `cp skins/glitch.yaml ~/.hermes/skins/` |
+
+### 🏛️ Editorial / Refined (11)
+
+| Skin | Vibe | Install |
+|------|------|---------|
+| `claude` | Warm stone research journal, ivory parchment | `cp skins/claude.yaml ~/.hermes/skins/` |
+| `codex` | Radical minimal blank canvas, pure black ink | `cp skins/codex.yaml ~/.hermes/skins/` |
+| `minimal` | Stripped-back whitespace, maximum focus | `cp skins/minimal.yaml ~/.hermes/skins/` |
+| `shadcn` | Minimal monochrome, warm neutral utility | `cp skins/shadcn.yaml ~/.hermes/skins/` |
+| `sleek` | Clean lines, intentional palette, refined | `cp skins/sleek.yaml ~/.hermes/skins/` |
+| `modern` | Editorial serif, minimal typography | `cp skins/modern.yaml ~/.hermes/skins/` |
+| `premium` | Apple-inspired, precise spacing | `cp skins/premium.yaml ~/.hermes/skins/` |
+| `professional` | Navy/steel, polished business-ready | `cp skins/professional.yaml ~/.hermes/skins/` |
+| `contemporary` | Dark bento grid, current-era minimal | `cp skins/contemporary.yaml ~/.hermes/skins/` |
+| `editorial` | Magazine serif, structured editorial | `cp skins/editorial.yaml ~/.hermes/skins/` |
+| `elegant` | Graceful pastels, soft sophistication | `cp skins/elegant.yaml ~/.hermes/skins/` |
+
+### 🔥 Bold / Expressive (9)
+
+| Skin | Vibe | Install |
+|------|------|---------|
+| `neobrutalism` | Bold neon-orange, raw high-contrast | `cp skins/neobrutalism.yaml ~/.hermes/skins/` |
+| `brutalism` | Raw concrete, stark black/white, unadorned | `cp skins/brutalism.yaml ~/.hermes/skins/` |
+| `vibrant` | Lively multicolor, bold dynamic energy | `cp skins/vibrant.yaml ~/.hermes/skins/` |
+| `cosmic` | Deep space purple, nebula pink, star cyan | `cp skins/cosmic.yaml ~/.hermes/skins/` |
+| `fantasy` | Epic purple/gold, magical premium | `cp skins/fantasy.yaml ~/.hermes/skins/` |
+| `futuristic` | Tech-forward cyan/silver, sleek innovation | `cp skins/futuristic.yaml ~/.hermes/skins/` |
+| `retro` | Vintage amber/teal CRT warm glow | `cp skins/retro.yaml ~/.hermes/skins/` |
+| `metal-slug` | 16-bit arcade blue/red, retro power | `cp skins/metal-slug.yaml ~/.hermes/skins/` |
+| `dashboard` | Dark cloud-platform, data viz colors | `cp skins/dashboard.yaml ~/.hermes/skins/` |
+
+### 🌿 Warm / Organic (5)
+
+| Skin | Vibe | Install |
+|------|------|---------|
+| `terracotta` | Sun-baked clay, warm cream on fired earth | `cp skins/terracotta.yaml ~/.hermes/skins/` |
+| `cafe` | Warm brown/cream, cozy coffeehouse | `cp skins/cafe.yaml ~/.hermes/skins/` |
+| `clean` | Pure simplicity, restrained color | `cp skins/clean.yaml ~/.hermes/skins/` |
+| `lavi` | Lavender-pink gradient, soft elegant | `cp skins/lavi.yaml ~/.hermes/skins/` |
+| `ayu-dark` | Warm amber-charcoal, professional sunset | `cp skins/ayu-dark.yaml ~/.hermes/skins/` |
+
+### 🌙 Dark / Calm (6)
+
+| Skin | Vibe | Install |
+|------|------|---------|
+| `aura` | Purple neon, calm precise | `cp skins/aura.yaml ~/.hermes/skins/` |
+| `moonlight` | Deep indigo-cyan, sharp nocturnal focus | `cp skins/moonlight.yaml ~/.hermes/skins/` |
+| `poimandres` | Deep navy-mint, hermetic clarity | `cp skins/poimandres.yaml ~/.hermes/skins/` |
+| `poimandres-accessible` | High-contrast navy-mint, max readability | `cp skins/poimandres-accessible.yaml ~/.hermes/skins/` |
+| `poimandres-turquoise-expanded` | Navy-mint-turquoise, richer color story | `cp skins/poimandres-turquoise-expanded.yaml ~/.hermes/skins/` |
+| `luxury` | Dark monochrome, gold accents, premium | `cp skins/luxury.yaml ~/.hermes/skins/` |
 
 ---
 
-## 📦 Installation
+## 📦 Install
 
-### Automatic (recommended)
-
-```bash
-git clone https://github.com/josephtrilles/hermes-skins.git ~/hermes-skins
-cp ~/hermes-skins/skins/*.yaml ~/.hermes/skins/
-```
-
-### Selective
+### Hermes Agent
 
 ```bash
-# Copy only the skins you want
-cp ~/hermes-skins/skins/vaporwave.yaml ~/.hermes/skins/
-cp ~/hermes-skins/skins/matrix.yaml ~/.hermes/skins/
+# Clone the whole collection
+git clone https://github.com/jtrilles/hermes-skins.git
+cp hermes-skins/skins/*.yaml ~/.hermes/skins/
+
+# Or just the ones you want
+cp hermes-skins/skins/cyberpunk.yaml ~/.hermes/skins/
+cp hermes-skins/skins/matrix.yaml ~/.hermes/skins/
+
+# Switch skin in-session
+/skin cyberpunk
 ```
 
-### Via Hermes Mod (GUI)
+### Claude Code / OpenCode / Any SKILL.md Agent
 
-1. Open [Hermes Mod](https://hermes-agent.nouresearch.com/docs/user-guide/features/skins#hermes-mod--visual-skin-editor)
-2. Launch Skin Studio
-3. Click **Import** and select a `.yaml` file from `skins/`
-4. Click **Activate** to set it as current
+These skins work with any agent that supports the standard Agent Skills `SKILL.md` format. Install the skin manager skill and point it at the `skins/` directory.
+
+### One-liner
+
+```bash
+git clone https://github.com/jtrilles/hermes-skins.git && cp hermes-skins/skins/*.yaml ~/.hermes/skins/ && rm -rf hermes-skins && echo "✅ 39 CLI skins installed — run /skin in your agent"
+```
 
 ---
 
 ## 🎮 Usage
 
-Switch skins inside any Hermes session:
+### Inside your CLI agent
 
 ```bash
-/skin                     # show current skin + list all available
-/skin vaporwave           # switch to synthwave outrun
-/skin darkweb             # switch to .onion noir
-/skin cypher              # switch to cypherpunk green
-/skin matrix              # switch to code rain
+/skin                      # show current + list available
+/skin vaporwave            # switch to synthwave
+/skin darkweb              # switch to .onion noir
+/skin matrix               # switch to code rain
+/skin claude               # switch to stone journal
+/skin poimandres           # switch to navy-mint
 ```
 
-Set a default skin in `~/.hermes/config.yaml`:
+### Set as default
+
+In `~/.hermes/config.yaml`:
 
 ```yaml
 display:
@@ -106,26 +156,52 @@ display:
 
 ---
 
-## 🧩 Skin Structure
+## 🧩 What's in a Skin
 
-Each skin is a standalone YAML file with three sections:
+Every skin is a single YAML file with exactly these sections:
 
 ```yaml
-name: my-skin              # unique identifier
-description: ...           # short description
+name: my-skin              # unique name, used with /skin
+description: One-liner vibe.
 
-colors:                    # 22 color tokens
+colors:                    # 22 terminal color tokens
   banner_border: "#..."
   banner_title: "#..."
-  # ... see full spec below
+  banner_accent: "#..."
+  banner_dim: "#..."
+  banner_text: "#..."
+  ui_accent: "#..."
+  ui_label: "#..."
+  ui_ok: "#..."
+  ui_error: "#..."
+  ui_warn: "#..."
+  prompt: "#..."
+  input_rule: "#..."
+  response_border: "#..."
+  status_bar_bg: "#..."
+  status_bar_text: "#..."
+  status_bar_strong: "#..."
+  status_bar_dim: "#..."
+  status_bar_good: "#..."
+  status_bar_warn: "#..."
+  status_bar_bad: "#..."
+  status_bar_critical: "#..."
+  session_label: "#..."
+  session_border: "#..."
+  selection_bg: "#..."
+  completion_menu_bg: "#..."
+  completion_menu_current_bg: "#..."
+  completion_menu_meta_bg: "#..."
+  completion_menu_meta_current_bg: "#..."
+  voice_status_bg: "#..."
 
-spinner:                   # animated CLI spinner
-  waiting_faces: [...]     # faces while waiting for API
-  thinking_faces: [...]    # faces during model reasoning
-  thinking_verbs: [...]    # verbs shown in spinner messages
-  wings: [...]             # decorative brackets
+spinner:                   # animated loading indicators
+  waiting_faces: [...]     # 6-8 chars cycled during API wait
+  thinking_faces: [...]    # 4-6 chars during model reasoning
+  thinking_verbs: [...]    # 6-8 themed action verbs
+  wings: [...]             # 3 decorative bracket pairs
 
-branding:                  # agent identity
+branding:                  # agent identity in the terminal
   agent_name: "..."
   welcome: "..."
   goodbye: "..."
@@ -133,99 +209,59 @@ branding:                  # agent identity
   prompt_symbol: "..."
   help_header: "..."
 
-tool_prefix: "┊"           # character before tool output lines
+tool_prefix: "┊"
 ```
 
-See the [Hermes Skin Documentation](https://hermes-agent.nouresearch.com/docs/user-guide/features/skins) for the complete key reference.
+### Design Rules
+
+| Rule | Value |
+|------|-------|
+| Colors defined | ✅ All 22 |
+| Background | ✅ Dark (always) |
+| File size | ✅ ≤ 80 lines |
+| Contrast | ✅ WCAG AA minimum |
+| Spinner faces | ✅ 6-8 waiting, 4-6 thinking |
+| Spinner verbs | ✅ 6-8 themed |
+| Wings | ✅ 3 pairs |
 
 ---
 
-## 🛠️ Creating Custom Skins
+## 🛠️ Create Your Own
 
-1. Copy an existing skin as a starting point:
-   ```bash
-   cp ~/.hermes/skins/aura.yaml ~/.hermes/skins/my-skin.yaml
-   ```
+```bash
+cp ~/.hermes/skins/aura.yaml ~/.hermes/skins/my-vibe.yaml
+# edit colors, spinner, branding
+# then:
+/skin my-vibe
+```
 
-2. Edit the file — change colors, spinner faces, branding text.
-
-3. Switch to it:
-   ```bash
-   /skin my-skin
-   ```
-
-4. Set as default in `~/.hermes/config.yaml`:
-   ```yaml
-   display:
-     skin: my-skin
-   ```
-
-> **Tip:** Missing keys automatically inherit from the `default` built-in skin, so you only need to specify what you want to override.
-
-### Color Reference
-
-| Key | Description |
-|-----|-------------|
-| `banner_border` | Panel border around startup banner |
-| `banner_title` | Title text in banner |
-| `banner_accent` | Section headers (Available Tools, etc.) |
-| `banner_dim` | Muted text (separators, labels) |
-| `banner_text` | Body text (tool names, skill names) |
-| `ui_accent` | General UI accent color |
-| `ui_label` | UI labels and tags |
-| `ui_ok` | Success indicators |
-| `ui_error` | Error indicators |
-| `ui_warn` | Warning indicators |
-| `prompt` | Interactive prompt text |
-| `input_rule` | Horizontal rule above input |
-| `response_border` | Agent response box border |
-| `status_bar_bg` | Status bar background |
-| `status_bar_text` | Status bar text |
-| `status_bar_strong` | Status bar emphasized text |
-| `status_bar_dim` | Status bar muted text |
-| `status_bar_good/warn/bad/critical` | Status bar health colors |
-| `session_label/border` | Session display colors |
-| `selection_bg` | Selection highlight background |
-| `completion_menu_*` | Tab-completion menu colors |
-| `voice_status_bg` | Voice mode background |
+Missing keys automatically inherit from the built-in `default` skin — override only what you need.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you've created a skin that fits the collection:
+PRs welcome — especially if you've made something that doesn't exist yet.
 
-1. Fork the repository
-2. Add your `.yaml` file to `skins/`
-3. Update the preview table in `README.md`
-4. Submit a pull request
+**Checklist:**
+- [ ] All 22 color keys defined
+- [ ] ≤ 80 lines
+- [ ] Dark background
+- [ ] 6-8 waiting faces, 4-6 thinking faces
+- [ ] 6-8 thinking verbs, 3 wing pairs
+- [ ] Complete branding section
+- [ ] Distinct from existing skins
 
-### Guidelines
-
-- Each skin must define **all 22 color keys** (no missing values)
-- Include **6–8 waiting faces**, **4–6 thinking faces**, **6–8 thinking verbs**, **3 wing pairs**
-- Complete **branding** section (agent_name, welcome, goodbye, response_label, prompt_symbol, help_header)
-- File size should stay under **80 lines**
-- Use **dark backgrounds** (CLI terminals are almost universally dark-mode)
-- Maintain **WCAG AA contrast** between text and background colors
-- Give your skin a **distinct visual character** — avoid duplicating existing palettes
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full template.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Credits
-
-- [Hermes Agent](https://hermes-agent.nouresearch.com) by Nous Research — the agent platform these skins are built for
-- [TypeUI.sh](https://typeui.sh) — design language inspiration for several skins
-- All contributors and skin authors
+MIT — use them, share them, remix them.
 
 ---
 
 <p align="center">
-  <sub>Made with ❤️ for the Hermes Agent community</sub>
+  <sub>Made for the terminal. Enjoyed in the CLI.</sub>
 </p>
